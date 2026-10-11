@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07131f" />
+    <meta name="description" content="Latest football news from Tanzania's NBC Premier League, Championship, First League and Women's Premier League." />
+    <link rel="icon" type="image/png" href="images/tanzania-major-league-logo.png" />
+    <title>Latest Football News - Tanzania Major League</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="news.css" />
+  </head>
+  <body class="news-page">
+    <div class="site-shell">
+      <div class="topline">
+        <div class="container topline-inner">
+          <span class="live-dot"><i></i> LIVE FROM TANZANIA</span>
+          <span class="topline-message">Football news, without the filter.</span>
+          <div class="topline-links"><a class="active" href="news.html">News</a><a href="clubs.html">Clubs</a><a href="competitions.html">Competitions</a></div>
+        </div>
+      </div>
+
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a class="brand" href="index.html" aria-label="Tanzania Major League home"><span class="brand-mark" aria-hidden="true"><img src="images/tanzania-major-league-logo.png" alt="" /></span><span class="brand-copy"><strong>TANZANIA</strong><small>MAJOR LEAGUE</small></span></a>
+          <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Beginning</a><a href="competitions.html">Competitions</a><a href="prediction.html">Forecast</a><a class="active" href="news.html" aria-current="page">News</a><a href="clubs.html">Clubs</a><a href="leadership.html">Leadership</a><details class="nav-dropdown"><summary>About Us <span aria-hidden="true">⌄</span></summary><div class="nav-dropdown-panel"><a class="nav-dropdown-feature" href="https://tff-tickets.com/" target="_blank" rel="noopener noreferrer"><span class="nav-dropdown-icon">T</span><span><strong>Tickets</strong><small>Official match tickets</small></span><i aria-hidden="true">↗</i></a><div class="nav-dropdown-group"><span class="nav-dropdown-label">League Regulations</span><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/09/LIGI-KUU-KANUNI-2026.-revised-11-Sep-2026-1.pdf" target="_blank" rel="noopener noreferrer"><span>Ligi Kuu</span><i aria-hidden="true">PDF ↗</i></a><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/01/KANUNI-CHAMPIONSHIP-20252026.pdf" target="_blank" rel="noopener noreferrer"><span>Championship League</span><i aria-hidden="true">PDF ↗</i></a><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/01/KANUNI-FIRST-LEAGUE-20252026-1.pdf" target="_blank" rel="noopener noreferrer"><span>First League</span><i aria-hidden="true">PDF ↗</i></a></div><a class="nav-dropdown-feature nav-dropdown-fcms" href="https://fcms.ma.services/tan/login" target="_blank" rel="noopener noreferrer"><span class="nav-dropdown-icon">C</span><span><strong>FCMS / CMS</strong><small>Competition management system</small></span><i aria-hidden="true">↗</i></a></div></details><a href="contact.html">Contact us</a></nav>
+          <div class="nav-actions"><button class="icon-button search-trigger" type="button" aria-label="Search" data-search-trigger><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button><a class="nav-cta" href="#newsletter">Subscribe <span>&rarr;</span></a><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button></div>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="news-hero"><div class="container"><div class="news-hero-copy"><p class="section-kicker">THE NOTEBOOK / 2026 / 27</p><h1>Latest Football <em>News.</em></h1><p>One sharp home for the stories, voices and matchday details moving Tanzanian football across all four competitions.</p><div class="news-hero-stamp"><span><i></i> 4 competitions</span><span>Fresh from the touchline</span></div></div><div class="news-hero-story" data-news-hero></div></div></section>
+        <nav class="news-filter-bar" aria-label="Filter news by competition" data-news-filters></nav>
+
+        <section class="news-section news-featured-section" id="featured"><div class="container"><div class="news-section-heading"><div><p class="section-kicker">01 / THE FRONT PAGE</p><h2>Featured <em>stories.</em></h2></div><span class="news-section-note">The stories setting the tone</span></div><div class="featured-news-grid" data-featured-grid></div></div></section>
+
+        <section class="news-section latest-news-section" id="latest"><div class="container"><div class="news-section-heading"><div><p class="section-kicker">02 / THE LATEST</p><h2>News <em>now.</em></h2></div><span class="news-section-note">Across every league</span></div><div class="latest-news-layout"><div class="latest-news-grid" data-latest-news></div><aside class="trending-panel"><div class="trending-heading"><p class="section-kicker">TRENDING / 24 HOURS</p><h3>Most <em>read.</em></h3></div><div data-trending-news></div></aside></div><div class="news-load-more"><button type="button" class="button button-dark" data-load-more>Load more stories <span>&darr;</span></button><span data-load-note>Showing the latest stories</span></div></div></section>
+
+        <section class="news-section news-category-section news-dark-section" id="match-news"><div class="container"><div class="news-section-heading light"><div><p class="section-kicker">03 / MATCHDAY</p><h2>Match <em>news.</em></h2></div><span class="news-section-note">Previews, reports and reactions</span></div><div class="category-news-grid" data-match-news></div></div></section>
+
+        <section class="news-section news-category-section" id="transfers"><div class="container"><div class="news-section-heading"><div><p class="section-kicker">04 / THE CLUBHOUSE</p><h2>Transfers &amp; <em>club news.</em></h2></div><span class="news-section-note">Inside the squad</span></div><div class="category-news-grid" data-transfer-news></div></div></section>
+
+        <section class="news-section news-category-section news-split-section" id="players"><div class="container"><div class="news-section-heading"><div><p class="section-kicker">05 / THE PEOPLE</p><h2>Player <em>stories.</em></h2></div><span class="news-section-note">Profiles, form and the next wave</span></div><div class="category-news-grid player-news-grid" data-player-news></div></div></section>
+
+        <section class="news-section women-news-section" id="women"><div class="container"><div class="women-news-header"><div><p class="section-kicker">06 / WOMEN'S FOOTBALL</p><h2>Her game, <em>her stage.</em></h2><p>The Women's Premier League deserves its own front row. Follow the players, clubs and moments building the next chapter.</p></div><span class="women-news-logo"><img src="images/women-ligue-nbc.png" alt="Women's Premier League logo" /></span></div><div class="women-news-grid" data-women-news></div></div></section>
+
+        <section class="news-section official-news-section" id="official"><div class="container"><div class="news-section-heading"><div><p class="section-kicker">07 / THE LEAGUE DESK</p><h2>Official <em>updates.</em></h2></div><span class="news-section-note">Notices, awards and competition news</span></div><div class="category-news-grid" data-official-news></div></div></section>
+
+        <section class="news-pagination-section"><div class="container"><div class="news-pagination-copy"><p class="section-kicker">THE NOTEBOOK KEEPS MOVING</p><h2>Stay close to <em>the game.</em></h2><p>New stories land every matchweek, from the biggest fixtures to the details that deserve a second look.</p></div><a class="button button-primary" href="#top">Back to top <span>&uarr;</span></a></div></section>
+      </main>
+
+      <section class="newsletter" id="newsletter"><div class="newsletter-watermark" aria-hidden="true">CLUBHOUSE</div><div class="container newsletter-inner"><div class="newsletter-copy"><p class="section-kicker">THE CLUBHOUSE</p><h2>Don't just watch.<br /><em>Stay close.</em></h2><p>One sharp email every week: the stories, fixtures and voices moving Tanzania's game forward.</p></div><form class="newsletter-form"><input type="email" placeholder="Your email address" aria-label="Your email address" /><button type="submit">Join the club <span>&rarr;</span></button></form></div></section>
+            <footer class="site-footer" id="about">
+        <div class="site-footer-watermark" aria-hidden="true">TML</div>
+        <div class="container footer-main">
+          <div class="footer-brand-panel">
+            <a class="brand footer-brand" href="index.html" aria-label="Tanzania Major League home"><span class="brand-mark" aria-hidden="true"><img src="images/tanzania-major-league-logo.png" alt="" /></span><span class="brand-copy"><strong>TANZANIA</strong><small>MAJOR LEAGUE</small></span></a>
+            <p>Football from Tanzania,<br /><em>with the volume up.</em></p>
+            <span class="footer-signature"><i></i> The home of Tanzania football</span>
+          </div>
+          <div class="footer-link-column">
+            <span class="footer-column-title">Explore</span>
+            <a href="index.html">Home <span>&rarr;</span></a><a href="competitions.html">Competitions <span>&rarr;</span></a><a href="prediction.html">Prediction <span>&rarr;</span></a><a href="news.html">News <span>&rarr;</span></a><a href="clubs.html">Clubs <span>&rarr;</span></a><a href="leadership.html">Leadership <span>&rarr;</span></a><a href="contact.html">Contact <span>&rarr;</span></a>
+          </div>
+          <div class="footer-link-column">
+            <span class="footer-column-title">Competitions</span>
+            <a href="competitions.html#leagues">All competitions <span>&rarr;</span></a><a href="league.html?competition=premier">NBC Premier League <span>&rarr;</span></a><a href="league.html?competition=championship">NBC Championship <span>&rarr;</span></a><a href="league.html?competition=first">First League <span>&rarr;</span></a><a href="league.html?competition=women">Women's Premier <span>&rarr;</span></a>
+            <span class="footer-column-subtitle">League regulations</span><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/09/LIGI-KUU-KANUNI-2026.-revised-11-Sep-2026-1.pdf" target="_blank" rel="noopener noreferrer">Ligi Kuu PDF <span>↗</span></a><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/01/KANUNI-CHAMPIONSHIP-20252026.pdf" target="_blank" rel="noopener noreferrer">Championship PDF <span>↗</span></a><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/01/KANUNI-FIRST-LEAGUE-20252026-1.pdf" target="_blank" rel="noopener noreferrer">First League PDF <span>↗</span></a><span class="footer-column-subtitle">Official resources</span><a href="https://tff-tickets.com/" target="_blank" rel="noopener noreferrer">Tickets <span>↗</span></a><a href="https://fcms.ma.services/tan/login" target="_blank" rel="noopener noreferrer">FCMS / CMS <span>↗</span></a>
+          </div>
+          <div class="footer-office-column">
+            <span class="footer-column-title">Official desk</span>
+            <p>Tanzania Premier League Board<br />14th Floor, NSSF Mafao House<br />Plot No. 40, Block Y, Ilala<br />Dar es Salaam, Tanzania.</p>
+            <a class="footer-email" href="mailto:Info@ligikuu.co.tz">Info@ligikuu.co.tz <span>&rarr;</span></a>
+            <a class="footer-office-link" href="contact.html#location">Visit the office <span>&rarr;</span></a>
+          </div>
+        </div>
+        <div class="container footer-bottom"><span>&copy; 2026 Tanzania Major League. Made in Tanzania.</span><div><a href="contact.html#faqs">FAQs</a><a href="contact.html">Contact office</a><a href="#top">Back to top &uarr;</a></div></div>
+      </footer>
+    </div>
+    <div class="search-drawer" data-search-drawer aria-hidden="true"><div class="search-panel"><button class="drawer-close" type="button" data-search-close aria-label="Close search">&times;</button><p class="section-kicker">SEARCH THE NOTEBOOK</p><h2>Find your next <em>story.</em></h2><form class="search-form" data-search-form><input type="search" placeholder="Search players, clubs, stories..." /><button type="submit">Search <span>&rarr;</span></button></form></div></div>
+    <script src="i18n.js"></script>
+    <script src="scroll-reveals.js"></script>
+    <script src="news-data.js"></script>
+    <script src="news.js"></script>
+  </body>
+</html>

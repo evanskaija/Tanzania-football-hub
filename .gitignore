@@ -1,0 +1,9 @@
+# Chrome browser data (not part of the project)
+.chrome-match-check/
+
+# OpenAI hosting config (deployment-specific, not source)
+.openai/
+
+# OS files
+Thumbs.db
+.DS_Store

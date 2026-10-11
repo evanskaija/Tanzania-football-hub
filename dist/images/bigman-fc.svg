@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Bigman FC crest</title>
+  <desc id="desc">A red shield with a gold star and the letter B.</desc>
+  <path d="M64 5 112 20v37c0 31-19 53-48 66C35 110 16 88 16 57V20L64 5Z" fill="#b6312e"/>
+  <path d="M64 13 103 25v32c0 25-14 43-39 55-25-12-39-30-39-55V25L64 13Z" fill="#fae6dd"/>
+  <path d="m64 29 4 9 10 1-8 7 2 10-8-5-8 5 2-10-8-7 10-1 4-9Z" fill="#b88717"/>
+  <text x="64" y="96" fill="#b6312e" font-family="Arial, sans-serif" font-size="43" font-weight="800" text-anchor="middle">B</text>
+  <path d="M42 105h44" stroke="#b6312e" stroke-linecap="round" stroke-width="4"/>
+</svg>

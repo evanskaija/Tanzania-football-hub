@@ -1,0 +1,20 @@
+document.documentElement.classList.add('js');
+const observer = 'IntersectionObserver' in window ? new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }), { threshold: .12 }) : null;
+document.querySelectorAll('.reveal-item').forEach((item) => observer ? observer.observe(item) : item.classList.add('is-visible'));
+const menuToggle = document.querySelector('.menu-toggle');
+const mainNav = document.querySelector('.main-nav');
+if (menuToggle && mainNav) { menuToggle.addEventListener('click', () => { const open = mainNav.classList.toggle('open'); menuToggle.classList.toggle('open', open); menuToggle.setAttribute('aria-expanded', String(open)); document.body.classList.toggle('menu-open', open); }); mainNav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => { mainNav.classList.remove('open'); menuToggle.classList.remove('open'); menuToggle.setAttribute('aria-expanded', 'false'); document.body.classList.remove('menu-open'); })); }
+const drawer = document.querySelector('[data-search-drawer]');
+const searchTrigger = document.querySelector('[data-search-trigger]');
+const searchClose = document.querySelector('[data-search-close]');
+const drawerInput = document.querySelector('.search-form input');
+if (drawer && searchTrigger && searchClose) { const closeSearch = () => { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); document.body.classList.remove('drawer-open'); }; searchTrigger.addEventListener('click', () => { drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false'); window.setTimeout(() => drawerInput?.focus(), 180); }); searchClose.addEventListener('click', closeSearch); drawer.addEventListener('click', (event) => { if (event.target === drawer) closeSearch(); }); document.addEventListener('keydown', (event) => { if (event.key === 'Escape') closeSearch(); }); }
+const newsletterForm = document.querySelector('[data-newsletter-form]');
+newsletterForm?.addEventListener('submit', (event) => { event.preventDefault(); const button = newsletterForm.querySelector('button'); const note = newsletterForm.querySelector('.form-note'); button.innerHTML = "You're in <span>&check;</span>"; button.disabled = true; if (note) note.textContent = 'Welcome to the clubhouse. Check your inbox for the first whistle.'; });
+const contactForm = document.querySelector('[data-contact-form]');
+const contactStatus = document.querySelector('[data-contact-status]');
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const setFieldError = (field, message) => { const wrapper = field.closest('.contact-field'); const error = wrapper?.querySelector('.field-error'); wrapper?.classList.toggle('has-error', Boolean(message)); if (error) error.textContent = message || ''; };
+const clearContactStatus = () => { if (contactStatus) { contactStatus.textContent = ''; contactStatus.className = 'contact-form-status'; } };
+contactForm?.querySelectorAll('input, select, textarea').forEach((field) => field.addEventListener('input', () => { if (field.value.trim()) setFieldError(field, ''); clearContactStatus(); }));
+contactForm?.addEventListener('submit', (event) => { event.preventDefault(); clearContactStatus(); let valid = true; let firstInvalid = null; contactForm.querySelectorAll('[required]').forEach((field) => { const value = field.value.trim(); let message = ''; if (!value) message = 'This field is required.'; else if (field.type === 'email' && !emailPattern.test(value)) message = 'Enter a valid email address.'; setFieldError(field, message); if (message) { valid = false; firstInvalid ||= field; } }); if (!valid) { if (contactStatus) { contactStatus.textContent = 'Please check the highlighted fields and try again.'; contactStatus.className = 'contact-form-status error'; } firstInvalid?.focus(); return; } if (contactStatus) { contactStatus.textContent = 'Your message has been sent successfully. Our team will get back to you shortly.'; contactStatus.className = 'contact-form-status success'; } contactForm.reset(); });

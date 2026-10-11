@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07131f" />
+    <meta name="description" content="Explore clubs from Tanzania's top football competitions." />
+    <link rel="icon" type="image/png" href="images/tanzania-major-league-logo.png" />
+    <title>Clubs - Tanzania Major League</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="clubs.css" />
+  </head>
+  <body class="clubs-page">
+    <div class="site-shell">
+      <div class="topline">
+        <div class="container topline-inner">
+          <span class="live-dot"><i></i> LIVE FROM TANZANIA</span>
+          <span class="topline-message">Football news, without the filter.</span>
+          <div class="topline-links"><a href="news.html">News</a><a href="competitions.html">Competitions</a></div>
+        </div>
+      </div>
+
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a class="brand" href="index.html" aria-label="Tanzania Major League home"><span class="brand-mark" aria-hidden="true"><img src="images/tanzania-major-league-logo.png" alt="" /></span><span class="brand-copy"><strong>TANZANIA</strong><small>MAJOR LEAGUE</small></span></a>
+          <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Beginning</a><a href="competitions.html">Competitions</a><a href="prediction.html">Forecast</a><a href="news.html">News</a><a class="active" href="clubs.html" aria-current="page">Clubs</a><a href="leadership.html">Leadership</a><details class="nav-dropdown"><summary>About Us <span aria-hidden="true">⌄</span></summary><div class="nav-dropdown-panel"><a class="nav-dropdown-feature" href="https://tff-tickets.com/" target="_blank" rel="noopener noreferrer"><span class="nav-dropdown-icon">T</span><span><strong>Tickets</strong><small>Official match tickets</small></span><i aria-hidden="true">↗</i></a><div class="nav-dropdown-group"><span class="nav-dropdown-label">League Regulations</span><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/09/LIGI-KUU-KANUNI-2026.-revised-11-Sep-2026-1.pdf" target="_blank" rel="noopener noreferrer"><span>Ligi Kuu</span><i aria-hidden="true">PDF ↗</i></a><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/01/KANUNI-CHAMPIONSHIP-20252026.pdf" target="_blank" rel="noopener noreferrer"><span>Championship League</span><i aria-hidden="true">PDF ↗</i></a><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/01/KANUNI-FIRST-LEAGUE-20252026-1.pdf" target="_blank" rel="noopener noreferrer"><span>First League</span><i aria-hidden="true">PDF ↗</i></a></div><a class="nav-dropdown-feature nav-dropdown-fcms" href="https://fcms.ma.services/tan/login" target="_blank" rel="noopener noreferrer"><span class="nav-dropdown-icon">C</span><span><strong>FCMS / CMS</strong><small>Competition management system</small></span><i aria-hidden="true">↗</i></a></div></details><a href="contact.html">Contact us</a></nav>
+          <div class="nav-actions"><button class="icon-button search-trigger" type="button" aria-label="Search" data-search-trigger><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button><a class="nav-cta" href="#newsletter">Subscribe <span>&rarr;</span></a><button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button></div>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="clubs-hero">
+          <div class="container clubs-hero-inner">
+            <div class="clubs-hero-copy"><p class="section-kicker">THE DIRECTORY / 2026 / 27</p><h1>Clubs <em>directory.</em></h1><p>Explore clubs from Tanzania's top football competitions. Find every badge, home ground, league position and the story behind the squad.</p><div class="clubs-hero-meta"><span><strong data-club-total>64</strong> clubs indexed</span><span><strong>04</strong> competitions</span><span><i></i> Profiles connected</span></div></div>
+            <div class="clubs-hero-art" aria-hidden="true"><span class="clubs-hero-ring"></span><span class="clubs-hero-number">64</span><span class="clubs-hero-label">BADGES<br />ONE HOME</span></div>
+          </div>
+        </section>
+
+        <section class="clubs-directory-section">
+          <div class="container">
+            <div class="clubs-section-heading"><div><p class="section-kicker">01 / FIND YOUR CLUB</p><h2>Every badge. <em>Every story.</em></h2></div><p data-club-count>64 clubs / all competitions</p></div>
+            <div class="clubs-controls" aria-label="Club directory filters">
+              <label class="club-control club-control-wide"><span>Competition</span><select data-club-competition><option value="all">All Clubs</option><option value="premier">NBC Premier League</option><option value="championship">NBC Championship League</option><option value="first">First League</option><option value="women">Women's Premier League</option></select></label>
+              <label class="club-control club-search-control"><span>Search clubs</span><input type="search" data-club-search placeholder="Search by club, city or stadium" /></label>
+              <label class="club-control"><span>Sort by</span><select data-club-sort><option value="az">A-Z</option><option value="league">League</option><option value="position">Position</option><option value="followed">Most followed</option></select></label>
+            </div>
+            <div class="clubs-active-filter" data-club-active-filter></div>
+            <div class="club-directory-grid" data-club-grid></div>
+            <div class="club-empty-state" data-club-empty hidden><span>NO MATCHING CLUBS</span><h3>Try a different search.</h3><p>Search by club name, city or home stadium to find the profile you're after.</p></div>
+          </div>
+        </section>
+
+        <section class="clubs-directory-note"><div class="container"><div><p class="section-kicker">THE CLUBHOUSE</p><h2>Pick a badge.<br /><em>Go deeper.</em></h2></div><p>Every card opens a full club profile with its league table, fixtures, player numbers, team metrics and history.</p><a class="button button-primary" href="competitions.html">Explore competitions <span>&rarr;</span></a></div></section>
+      </main>
+
+      <section class="newsletter" id="newsletter"><div class="newsletter-watermark" aria-hidden="true">CLUBHOUSE</div><div class="container newsletter-inner"><div class="newsletter-copy"><p class="section-kicker">THE CLUBHOUSE</p><h2>Don't just watch.<br /><em>Stay close.</em></h2><p>One sharp email every week: the stories, fixtures and voices moving Tanzania's game forward.</p></div><form class="newsletter-form" data-newsletter-form><input type="email" placeholder="Your email address" aria-label="Your email address" required /><button type="submit">Join the club <span>&rarr;</span></button><small class="form-note"></small></form></div></section>
+            <footer class="site-footer" id="about">
+        <div class="site-footer-watermark" aria-hidden="true">TML</div>
+        <div class="container footer-main">
+          <div class="footer-brand-panel">
+            <a class="brand footer-brand" href="index.html" aria-label="Tanzania Major League home"><span class="brand-mark" aria-hidden="true"><img src="images/tanzania-major-league-logo.png" alt="" /></span><span class="brand-copy"><strong>TANZANIA</strong><small>MAJOR LEAGUE</small></span></a>
+            <p>Football from Tanzania,<br /><em>with the volume up.</em></p>
+            <span class="footer-signature"><i></i> The home of Tanzania football</span>
+          </div>
+          <div class="footer-link-column">
+            <span class="footer-column-title">Explore</span>
+            <a href="index.html">Home <span>&rarr;</span></a><a href="competitions.html">Competitions <span>&rarr;</span></a><a href="prediction.html">Prediction <span>&rarr;</span></a><a href="news.html">News <span>&rarr;</span></a><a href="clubs.html">Clubs <span>&rarr;</span></a><a href="leadership.html">Leadership <span>&rarr;</span></a><a href="contact.html">Contact <span>&rarr;</span></a>
+          </div>
+          <div class="footer-link-column">
+            <span class="footer-column-title">Competitions</span>
+            <a href="competitions.html#leagues">All competitions <span>&rarr;</span></a><a href="league.html?competition=premier">NBC Premier League <span>&rarr;</span></a><a href="league.html?competition=championship">NBC Championship <span>&rarr;</span></a><a href="league.html?competition=first">First League <span>&rarr;</span></a><a href="league.html?competition=women">Women's Premier <span>&rarr;</span></a>
+            <span class="footer-column-subtitle">League regulations</span><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/09/LIGI-KUU-KANUNI-2026.-revised-11-Sep-2026-1.pdf" target="_blank" rel="noopener noreferrer">Ligi Kuu PDF <span>↗</span></a><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/01/KANUNI-CHAMPIONSHIP-20252026.pdf" target="_blank" rel="noopener noreferrer">Championship PDF <span>↗</span></a><a href="https://www.ligikuu.co.tz/wp-content/uploads/2026/01/KANUNI-FIRST-LEAGUE-20252026-1.pdf" target="_blank" rel="noopener noreferrer">First League PDF <span>↗</span></a><span class="footer-column-subtitle">Official resources</span><a href="https://tff-tickets.com/" target="_blank" rel="noopener noreferrer">Tickets <span>↗</span></a><a href="https://fcms.ma.services/tan/login" target="_blank" rel="noopener noreferrer">FCMS / CMS <span>↗</span></a>
+          </div>
+          <div class="footer-office-column">
+            <span class="footer-column-title">Official desk</span>
+            <p>Tanzania Premier League Board<br />14th Floor, NSSF Mafao House<br />Plot No. 40, Block Y, Ilala<br />Dar es Salaam, Tanzania.</p>
+            <a class="footer-email" href="mailto:Info@ligikuu.co.tz">Info@ligikuu.co.tz <span>&rarr;</span></a>
+            <a class="footer-office-link" href="contact.html#location">Visit the office <span>&rarr;</span></a>
+          </div>
+        </div>
+        <div class="container footer-bottom"><span>&copy; 2026 Tanzania Major League. Made in Tanzania.</span><div><a href="contact.html#faqs">FAQs</a><a href="contact.html">Contact office</a><a href="#top">Back to top &uarr;</a></div></div>
+      </footer>
+    </div>
+    <div class="search-drawer" data-search-drawer aria-hidden="true"><div class="search-panel"><button class="drawer-close" type="button" data-search-close aria-label="Close search">&times;</button><p class="section-kicker">SEARCH THE DIRECTORY</p><h2>Find a club <em>fast.</em></h2><form class="search-form" data-search-form><input type="search" placeholder="Search clubs, players, stories..." /><button type="submit">Search <span>&rarr;</span></button></form></div></div>
+    <script src="i18n.js"></script>
+    <script src="scroll-reveals.js"></script>
+    <script src="clubs-data.js"></script>
+    <script src="clubs.js"></script>
+  </body>
+</html>

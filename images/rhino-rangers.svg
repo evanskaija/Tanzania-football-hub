@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Rhino Rangers crest</title>
+  <desc id="desc">A green shield with a stylized rhinoceros horn and the letters RR.</desc>
+  <path d="M64 5 112 20v37c0 31-19 53-48 66C35 110 16 88 16 57V20L64 5Z" fill="#0f6f4d"/>
+  <path d="M64 13 103 25v32c0 25-14 43-39 55-25-12-39-30-39-55V25L64 13Z" fill="#e6f4e5"/>
+  <path d="M39 63c6-14 15-22 28-24l18 6-8 6 11 6-12 6 4 11H60l-8-7-13 2 8-8-8-4Z" fill="#0f6f4d"/>
+  <path d="m67 49 17-17-5 17" fill="none" stroke="#0f6f4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <text x="64" y="102" fill="#0f6f4d" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">RR</text>
+</svg>
