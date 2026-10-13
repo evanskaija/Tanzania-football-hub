@@ -292,3 +292,123 @@
   .leadership-hero-intro { max-width: 100%; }
   .leadership-snapshot-item { min-width: 0; }
 }
+
+/* Final mobile layout: stack the hero and give every leadership card room to breathe. */
+@media (max-width: 620px) {
+  .leadership-hero {
+    min-height: 0;
+    background-position: 58% center;
+  }
+
+  .leadership-hero::before {
+    background: linear-gradient(180deg, rgba(2,17,29,.96) 0%, rgba(2,19,32,.82) 48%, rgba(3,18,31,.94) 100%);
+  }
+
+  .leadership-hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+    min-height: 0;
+    padding-top: 38px;
+    padding-bottom: 34px;
+  }
+
+  .leadership-hero-copy { max-width: none; }
+  .leadership-hero-copy .section-kicker { line-height: 1.25; }
+  .leadership-hero-copy h1 {
+    max-width: 100%;
+    margin: 16px 0 19px;
+    font-size: clamp(54px, 15vw, 66px);
+    line-height: .82;
+  }
+  .leadership-hero-copy h1 em { margin-top: 8px; }
+  .leadership-hero-intro { max-width: 290px; font-size: 13px; line-height: 1.55; }
+  .leadership-hero-actions { align-items: flex-start; gap: 15px; margin-top: 24px; }
+  .leadership-hero-actions .button { padding: 12px 14px; font-size: 9px; }
+  .leadership-text-link { font-size: 9px; }
+
+  .leadership-hero-visual {
+    width: min(100%, 340px);
+    min-height: 270px;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .hero-visual-card-back { width: 160px; height: 228px; right: 4px; top: 25px; }
+  .hero-visual-card-front { width: 182px; height: 255px; right: 93px; top: 38px; }
+  .hero-visual-ring-one { width: 290px; height: 290px; right: -15px; top: -8px; }
+  .hero-visual-ring-two { width: 204px; height: 204px; right: 41px; top: 36px; }
+  .hero-visual-stamp { width: 64px; height: 64px; right: 3px; bottom: 4px; font-size: 10px; }
+  .hero-visual-stamp b { font-size: 7px; }
+
+  .leadership-snapshot-item {
+    grid-template-columns: 36px minmax(0, 1fr);
+    min-height: 94px;
+    padding: 14px 11px;
+    column-gap: 8px;
+  }
+  .leadership-snapshot-item strong { font-size: 26px; }
+  .snapshot-icon { width: 34px; height: 34px; }
+  .snapshot-icon svg { width: 17px; height: 17px; }
+  .leadership-snapshot-item > span:not(.snapshot-icon) { font-size: 8px; line-height: 1.25; letter-spacing: .06em; }
+
+  .leadership-board-section,
+  .leadership-secretariat-section { padding: 64px 0 72px; }
+  .leadership-section-heading { gap: 12px; margin-bottom: 24px; }
+  .leadership-section-heading h2 { font-size: clamp(42px, 13vw, 54px); }
+  .leadership-section-heading > p { max-width: 31ch; font-size: 12px; }
+
+  .leadership-board-banner {
+    grid-template-columns: minmax(0, 1fr) 108px;
+    min-height: 170px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+  }
+  .board-banner-copy { padding: 22px 19px; }
+  .board-banner-kicker { font-size: 8px; letter-spacing: .14em; }
+  .board-banner-copy h3 { margin: 10px 0 8px; font-size: clamp(30px, 9vw, 40px); }
+  .board-banner-copy p { max-width: 185px; font-size: 10px; line-height: 1.35; }
+  .board-banner-visual,
+  .board-banner-visual > img { min-height: 170px; }
+  .board-banner-badge { right: 9px; top: 10px; width: 44px; height: 44px; padding: 5px; }
+
+  .leadership-board-grid { grid-template-columns: 1fr; gap: 13px; }
+  .leadership-member-card,
+  .leadership-member-card.member-card-feature {
+    grid-template-columns: 96px minmax(0, 1fr);
+    min-height: 145px;
+    gap: 14px;
+    padding: 12px 16px 12px 12px;
+    border-radius: 16px;
+  }
+  .member-portrait,
+  .member-card-feature .member-portrait { width: 96px; height: 112px; border-width: 5px; }
+  .member-name { font-size: clamp(18px, 6.5vw, 23px); line-height: .95; }
+  .member-role { max-width: 220px; font-size: 10px; line-height: 1.35; }
+  .member-card-mark { right: 13px; top: 10px; }
+
+  .secretariat-dossier-banner {
+    grid-template-columns: minmax(0, 1fr) 98px;
+    min-height: 180px;
+    margin-bottom: 22px;
+    border-radius: 16px;
+  }
+  .secretariat-dossier-copy { padding: 22px 18px; }
+  .secretariat-dossier-kicker { font-size: 8px; letter-spacing: .14em; }
+  .secretariat-dossier-copy h3 { margin: 10px 0 8px; font-size: 30px; }
+  .secretariat-dossier-copy p { max-width: 175px; font-size: 10px; line-height: 1.4; }
+  .secretariat-dossier-visual,
+  .secretariat-dossier-visual > img { min-height: 180px; }
+  .secretariat-dossier-badge { right: 9px; top: 10px; width: 44px; height: 44px; padding: 5px; }
+
+  .secretariat-org-chart { grid-template-columns: 1fr; gap: 12px; padding: 0 0 4px; }
+  .secretariat-role-card,
+  .secretariat-role-card:nth-child(1),
+  .secretariat-role-card:nth-child(2) { min-height: 204px; border-radius: 16px; }
+  .secretariat-role-card:nth-child(1) .secretariat-portrait,
+  .secretariat-role-card:nth-child(2) .secretariat-portrait,
+  .secretariat-portrait { height: 116px; }
+  .secretariat-role-card:nth-child(1) .secretariat-department-mark,
+  .secretariat-role-card:nth-child(2) .secretariat-department-mark,
+  .secretariat-department-mark { top: 116px; }
+}

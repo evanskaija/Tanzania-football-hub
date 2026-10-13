@@ -1,3 +1,6 @@
+# Dependencies
+node_modules/
+
 # Chrome browser data (not part of the project)
 .chrome-match-check/
 
