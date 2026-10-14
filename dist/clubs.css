@@ -74,4 +74,37 @@
   .directory-club-card { min-width: 0; padding: 15px; }
   .directory-club-card h3 { font-size: 22px; }
   .clubs-directory-note { padding: 64px 0 70px; }
+
+  /* The shared scroll-reveal observer can miss this section when its first
+     slice is already inside a short mobile viewport. Keep the directory
+     usable immediately so the filters and first club card are not hidden. */
+  .clubs-directory-section,
+  .clubs-directory-section .scroll-reveal,
+  .clubs-directory-section .scroll-reveal.is-visible {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  /* Keep the directory dense and scannable on phones. */
+  .club-directory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .directory-club-card { min-height: 0; padding: 12px 10px; border-radius: 14px; }
+  .directory-card-top { gap: 6px; }
+  .directory-card-rank { font-size: 21px; }
+  .directory-card-logo { width: 58px; height: 58px; padding: 6px; }
+  .directory-card-tag { gap: 4px; margin: 14px 0 8px; font-size: 6px; }
+  .directory-card-tag img { width: 14px; height: 14px; }
+  .directory-club-card h3 { min-height: 34px; font-size: 19px; }
+  .directory-card-location { overflow: hidden; font-size: 8px; text-overflow: ellipsis; white-space: nowrap; }
+  .directory-card-form { align-items: flex-start; flex-direction: column; gap: 7px; margin: 12px 0; padding-top: 10px; }
+  .directory-card-form > span { font-size: 6px; }
+  .directory-card-form > div { gap: 2px; }
+  .directory-card-form b { width: 18px; height: 18px; font-size: 9px; }
+  .directory-card-details { gap: 5px; margin-bottom: 12px; padding-top: 11px; }
+  .directory-card-details span { font-size: 6px; }
+  .directory-card-details b { font-size: 9px; }
+  .directory-card-footer { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .directory-card-footer span { font-size: 6px; }
+  .directory-card-link { align-self: flex-end; font-size: 7px; }
+  .directory-card-link span { font-size: 14px; }
 }
