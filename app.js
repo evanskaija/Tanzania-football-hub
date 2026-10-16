@@ -187,7 +187,7 @@ $('.newsletter-form').addEventListener('submit', (event) => {
   button.innerHTML = "You're in <span>✓</span>";
   button.disabled = true;
   note.textContent = 'Welcome to the clubhouse. Check your inbox for the first whistle.';
-  note.style.color = '#ffb45c';
+  note.style.color = '#a98bff';
 });
 
 

@@ -1,21 +1,21 @@
 const competitions = [
   {
-    id: 'premier', name: 'NBC Premier League', label: 'NBC PREMIER LEAGUE', logo: 'images/Tz NBC pl.png', accent: '#ff842a',
+    id: 'premier', name: 'NBC Premier League', label: 'NBC PREMIER LEAGUE', logo: 'images/Tz NBC pl.png', accent: '#6d3fd1',
     description: 'The flagship stage: big clubs, bigger nights and the race for Tanzania’s top prize.', clubs: 16, matchweek: 'Matchweek 08', leader: 'Simba SC', leaderPoints: 21,
     topScorer: 'Feisal Salum', goals: 8, today: 3
   },
   {
-    id: 'championship', name: 'NBC Championship League', label: 'NBC CHAMPIONSHIP', logo: 'images/TzNBC championship.png', accent: '#65aee6',
+    id: 'championship', name: 'NBC Championship League', label: 'NBC CHAMPIONSHIP', logo: 'images/TzNBC championship.png', accent: '#3b82f6',
     description: 'The proving ground where hungry clubs build momentum and chase promotion.', clubs: 16, matchweek: 'Matchweek 05', leader: 'KMC FC', leaderPoints: 11,
     topScorer: 'Salum Kihimbi', goals: 6, today: 4
   },
   {
-    id: 'first', name: 'First League', label: 'FIRST LEAGUE', logo: 'images/Tz first league.png', accent: '#ec6a2b',
+    id: 'first', name: 'First League', label: 'FIRST LEAGUE', logo: 'images/Tz first league.png', accent: '#6d3fd1',
     description: 'Raw ambition, local pride and the next generation of Tanzanian football stories.', clubs: 24, matchweek: 'Matchweek 04', leader: 'Mbeya Kwanza', leaderPoints: 10,
     topScorer: 'Abdul Mussa', goals: 5, today: 2
   },
   {
-    id: 'women', name: "Women's Premier League", label: "WOMEN'S PREMIER LEAGUE", logo: 'images/women-ligue-nbc.png', accent: '#d66caa',
+    id: 'women', name: "Women's Premier League", label: "WOMEN'S PREMIER LEAGUE", logo: 'images/women-ligue-nbc.png', accent: '#6d3fd1',
     description: 'The women’s game moves forward with skill, speed and a new generation of leaders.', clubs: 12, matchweek: 'Matchweek 06', leader: 'Simba Queens', leaderPoints: 15,
     topScorer: 'Clara Luvanga', goals: 7, today: 2
   }
@@ -166,5 +166,5 @@ if (newsletterForm) newsletterForm.addEventListener('submit', (event) => {
   button.innerHTML = "You're in <span>&check;</span>";
   button.disabled = true;
   note.textContent = 'Welcome to the clubhouse. Check your inbox for the first whistle.';
-  note.style.color = '#ffb45c';
+  note.style.color = '#a98bff';
 });

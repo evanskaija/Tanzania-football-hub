@@ -862,7 +862,7 @@ $('.newsletter-form').addEventListener('submit', (event) => {
   const email = input.value.trim().toLowerCase();
   if (state.subscriptions.includes(email)) {
     note.textContent = 'This email is already subscribed.';
-    note.style.color = '#ffb45c';
+    note.style.color = '#a98bff';
     return;
   }
   state.subscriptions.push(email);
@@ -871,7 +871,7 @@ $('.newsletter-form').addEventListener('submit', (event) => {
   button.disabled = true;
   input.disabled = true;
   note.textContent = 'Subscription saved on this device. You can unsubscribe from the clubhouse email.';
-  note.style.color = '#ffb45c';
+  note.style.color = '#a98bff';
 });
 
 if ($('[data-newsletter-unsubscribe]')) $('[data-newsletter-unsubscribe]').addEventListener('click', () => {
