@@ -1,0 +1,735 @@
+/* Shared responsive polish for compact, readable layouts across every page. */
+
+@media (min-width: 641px) and (max-width: 1100px) {
+  .container { width: min(calc(100% - 48px), 980px); }
+  h2 { font-size: clamp(42px, 6vw, 64px); }
+  .section-heading { margin-bottom: 30px; }
+  .stories-section,
+  .moments-section,
+  .leadership-section,
+  .fan-zone,
+  .newsletter { padding-top: 72px; padding-bottom: 76px; }
+  .match-section { padding-bottom: 62px; }
+  .match-centre-hero { min-height: 0; padding: 38px 0 32px; }
+  .match-centre-hero .match-intro h2 { font-size: clamp(50px, 7vw, 76px); }
+  .stories-section .news-feature { min-height: 390px; }
+  .stories-section .news-feature-media { min-height: 390px; }
+  .moments-section .moment-card { height: 320px; }
+  .leadership-section .leader-card { min-height: 380px; }
+  .fan-zone-heading h2 { font-size: clamp(42px, 6vw, 64px); }
+}
+
+@media (max-width: 640px) {
+  html { font-size: 14px; }
+  body { overflow-x: hidden; }
+  .container { width: calc(100% - 28px); }
+
+  .section-kicker { margin-bottom: 10px; font-size: 8px; letter-spacing: .13em; }
+  h2,
+  .section-heading h2,
+  .leadership-heading h2,
+  .fan-zone-heading h2,
+  .moments-heading h2 { font-size: clamp(34px, 10vw, 48px); line-height: .9; }
+  .button { min-height: 40px; padding: 10px 14px; font-size: 10px; }
+
+  /* Home hero */
+  .hero { min-height: 540px; height: auto; }
+  .hero-inner { padding-top: 24px; padding-bottom: 28px; }
+  .hero h1 { font-size: clamp(44px, 12.5vw, 62px); line-height: .86; }
+  .hero h1 em { font-size: .88em; }
+  .hero-description { max-width: 310px; margin: 16px 0 18px; font-size: 13px; line-height: 1.45; }
+  .hero-actions { gap: 9px; }
+  .story-link { font-size: 10px; }
+  .league-rail-inner { min-height: 78px; }
+  .competition { min-height: 78px; padding: 10px 8px; }
+
+  /* Home sections */
+  .stories-section { padding: 54px 0 58px; }
+  .stories-section::before { top: 86px; font-size: 72px; }
+  .stories-section .section-heading { gap: 13px; margin-bottom: 22px; }
+  .stories-section .section-heading h2 { font-size: clamp(38px, 11vw, 52px); }
+  .stories-section .news-feature { min-height: 330px; border-radius: 13px; }
+  .stories-section .news-feature-media { min-height: 330px; }
+  .stories-section .news-feature-copy { padding: 78px 16px 16px; }
+  .stories-section .news-feature-copy h3 { font-size: 24px; line-height: .97; }
+  .stories-section .news-feature-excerpt { margin: 8px 0 10px; font-size: 11px; line-height: 1.4; }
+  .stories-section .news-rail { padding: 12px 10px 10px; }
+  .stories-section .news-item { grid-template-columns: 18px 58px minmax(0, 1fr) 24px; gap: 7px; padding: 8px 0; }
+  .stories-section .news-thumb { height: 52px; border-radius: 8px; }
+  .stories-section .news-item-copy strong { font-size: 12px; line-height: 1.02; }
+  .stories-section .news-item-copy em { font-size: 7px; }
+  .stories-section .news-item-arrow { width: 24px; height: 24px; font-size: 11px; }
+
+  .match-section { padding-bottom: 46px; }
+  .match-centre-head { gap: 20px; padding-bottom: 28px; }
+  .match-centre-hero { min-height: 0; padding: 30px 0 25px; }
+  .match-centre-hero .match-intro h2,
+  .match-intro h2 { font-size: clamp(42px, 11.5vw, 58px); line-height: .88; }
+  .match-centre-hero .match-intro h2 em { font-size: .9em; }
+  .match-centre-hero .match-intro > p:not(.section-kicker),
+  .match-intro > p:not(.section-kicker) { max-width: 300px; margin: 15px 0 18px; font-size: 12px; line-height: 1.45; }
+  .match-centre-hero .season-lockup { min-width: 0; padding: 14px 15px; border-radius: 11px; }
+  .match-centre-hero .season-ball { width: 48px; height: 48px; }
+  .match-centre-hero .season-lockup strong { font-size: 22px; }
+  .match-centre-shell::before { top: 235px; bottom: -45px; }
+  .upcoming-heading { padding-bottom: 10px; font-size: 9px; }
+  .upcoming-card { min-height: 0; padding: 15px; }
+  .upcoming-card h4 { margin-top: 20px; font-size: 23px; }
+  .match-row { min-height: 64px; padding: 10px 11px; }
+  .match-row-main strong { font-size: 15px; }
+
+  .moments-section { padding: 58px 0 62px; }
+  .moments-section::before { top: 82px; font-size: 76px; }
+  .moments-heading { gap: 14px; margin-bottom: 24px; }
+  .moments-lede { margin-top: 10px; font-size: 12px; }
+  .moment-card { flex-basis: 155px; width: 155px; height: 282px; border-radius: 13px; }
+  .moment-copy { padding: 15px; }
+  .moment-copy strong { font-size: 18px; }
+  .moments-footer { margin-top: 18px; }
+
+  .leadership-section { padding: 58px 0 64px; }
+  .leadership-section::before { font-size: 180px; }
+  .leadership-heading { gap: 13px; margin-bottom: 24px; }
+  .leadership-heading h2 { font-size: clamp(38px, 11vw, 52px); }
+  .leadership-section .leader-card { grid-template-columns: 1fr; min-height: 0; }
+  .leadership-section .leader-photo { min-height: 260px; }
+  .leadership-section .leader-copy { padding: 22px 18px; }
+
+  .fan-zone { padding: 58px 0 64px; }
+  .fan-zone::before { top: 82px; font-size: 78px; }
+  .fan-zone-heading { gap: 14px; margin-bottom: 24px; }
+  .fan-zone-heading h2 { font-size: clamp(38px, 11vw, 52px); }
+  .fan-zone-heading > p { padding-top: 9px; font-size: 12px; }
+  .fan-zone-grid { gap: 11px; }
+
+  .newsletter { padding: 62px 0 68px; }
+  .newsletter::before { font-size: 78px; }
+  .newsletter-inner { gap: 18px; }
+  .newsletter h2 { font-size: clamp(40px, 11vw, 54px); line-height: .88; }
+  .newsletter-copy > p:last-child { margin-top: 12px; font-size: 12px; }
+  .newsletter-form { padding: 16px 14px 14px; }
+  .newsletter-form label { margin-bottom: 8px; font-size: 8px; }
+
+  /* Shared inner-page heroes and headings */
+  .article-hero,
+  .clubs-hero,
+  .competition-hero,
+  .contact-hero,
+  .league-detail-hero,
+  .news-hero,
+  .leadership-hero,
+  .club-profile-hero,
+  .prediction-hero { min-height: 0; padding-top: 45px; padding-bottom: 42px; }
+  .article-hero-heading h1,
+  .clubs-hero-copy h1,
+  .competition-hero h1,
+  .contact-hero-copy h1,
+  .league-hero-identity h1,
+  .news-hero-copy h1,
+  .leadership-hero-copy h1,
+  .club-hero-identity h1,
+  .prediction-hero-copy h1 { font-size: clamp(43px, 12.5vw, 66px); line-height: .86; }
+  .article-hero-heading p,
+  .clubs-hero-copy > p:not(.section-kicker),
+  .competition-hero-copy > p:not(.competition-kicker),
+  .contact-hero-copy > p:not(.section-kicker),
+  .news-hero-copy > p:not(.section-kicker),
+  .leadership-hero-copy > p:not(.section-kicker),
+  .prediction-hero-copy > p:not(.section-kicker) { font-size: 12px; line-height: 1.5; }
+  .article-body-section,
+  .clubs-directory-section,
+  .competition-news-section,
+  .contact-connect-section,
+  .contact-location-section,
+  .contact-quick-section,
+  .contact-faq-section,
+  .league-detail-content,
+  .news-section,
+  .prediction-challenge-section,
+  .quiz-section,
+  .daily-section { padding-top: 58px; padding-bottom: 64px; }
+
+  /* Contact */
+  .contact-hero-updated,
+  .contact-hero-updated .contact-hero-inner { min-height: 0; }
+  .contact-hero-updated .contact-hero-inner { padding-top: 0; padding-bottom: 0; }
+  .contact-hero-visual { min-height: 270px; }
+  .contact-visual-panel { top: 24px; width: 220px; height: 250px; }
+  .contact-visual-ring-one { width: 290px; height: 290px; }
+  .contact-visual-ring-two { width: 205px; height: 205px; }
+  .contact-connect-grid,
+  .contact-location-grid { gap: 12px; }
+  .contact-info-card,
+  .contact-form-card,
+  .contact-directions-card { padding: 20px 17px; border-radius: 16px; }
+  .contact-info-card h3,
+  .contact-form-intro h3,
+  .contact-directions-card h3 { font-size: 30px; }
+
+  /* Prediction and match cards */
+  .prediction-hero { min-height: 0; }
+  .prediction-hero-card { padding: 16px; }
+  .prediction-challenge-card,
+  .match-challenge-card,
+  .challenge-aside-card { padding: 16px; border-radius: 13px; }
+  .prediction-section-heading h2 { font-size: clamp(34px, 10vw, 48px); }
+  .leaderboard-shell { border-radius: 11px; }
+
+  /* Tables and cards should stay compact without forcing the page taller. */
+  .profile-card,
+  .history-card,
+  .fixture-card,
+  .team-stat-card,
+  .league-card,
+  .directory-club-card { padding: 15px; border-radius: 12px; }
+  .profile-table th, .profile-table td,
+  .league-table th, .league-table td { padding: 9px 8px; }
+  .history-grid { gap: 10px; }
+  .history-milestone { padding: 13px; }
+}
+
+@media (max-width: 640px) {
+  .contact-hero-updated .contact-hero-copy h1 { font-size: clamp(43px, 12.5vw, 66px); }
+  .contact-hero-updated .contact-hero-copy > p:not(.section-kicker) { max-width: 310px; font-size: 12px; line-height: 1.5; }
+  .contact-hero-updated .contact-hero-actions { gap: 12px; margin-top: 22px; }
+}
+/* Compact responsive pass: keep mobile content readable without tall cards */
+@media (min-width: 641px) and (max-width: 1100px) {
+  .container { width: min(calc(100% - 44px), 920px); }
+  .hero { height: 600px; min-height: 600px; }
+  .hero-inner { padding-top: 34px; padding-bottom: 34px; }
+  .hero h1 { font-size: clamp(50px, 8vw, 82px); }
+  .hero-description { margin: 18px 0 20px; font-size: 13px; }
+  .section,
+  .moments-section,
+  .leadership-section,
+  .fan-zone,
+  .newsletter,
+  .match-section,
+  .news-section,
+  .competition-section,
+  .featured-section,
+  .fixtures-leaders-section,
+  .scorers-section,
+  .quick-stats-section,
+  .clubs-directory-section,
+  .leadership-board-section,
+  .leadership-charter-section,
+  .leadership-secretariat-section,
+  .prediction-challenge-section,
+  .quiz-section,
+  .my-predictions-section,
+  .leaderboard-section,
+  .previous-results-section,
+  .article-body-section,
+  .contact-office-section,
+  .contact-connect-section,
+  .contact-location-section,
+  .contact-note-section,
+  .contact-faq-section { padding-top: 70px; padding-bottom: 76px; }
+  .match-centre-hero { min-height: 270px; padding: 38px 0 32px; }
+  .match-centre-hero .match-intro h2 { font-size: clamp(49px, 6.2vw, 72px); }
+  .stories-section .news-feature,
+  .stories-section .news-feature-media { min-height: 390px; }
+  .stories-section .news-feature-copy { padding: 25px 24px 22px; }
+  .stories-section .news-feature-copy h3 { font-size: clamp(25px, 3vw, 37px); }
+  .moment-card { height: 330px; }
+  .leader-card,
+  .leader-photo,
+  .leadership-stats { min-height: 360px; }
+  .fan-points-card,
+  .prediction-card { min-height: 390px; }
+  .competition-hero,
+  .competition-hero-inner,
+  .news-hero,
+  .news-hero-story,
+  .prediction-hero,
+  .prediction-hero-inner,
+  .leadership-hero,
+  .leadership-hero-inner,
+  .clubs-hero,
+  .clubs-hero-inner,
+  .contact-hero-inner { min-height: 0; }
+  .competition-hero h1,
+  .news-hero-copy h1,
+  .leadership-hero-copy h1,
+  .clubs-hero-copy h1,
+  .contact-hero-copy h1,
+  .prediction-hero-copy h1 { font-size: clamp(50px, 7vw, 82px); }
+  .league-card,
+  .contact-office-card,
+  .contact-email-card,
+  .contact-info-card,
+  .contact-form-card,
+  .contact-directions-card { min-height: 0; }
+}
+
+@media (max-width: 640px) {
+  html { font-size: 14px; scroll-padding-top: 74px; }
+  body { font-size: 13px; }
+  .site-shell { width: 100%; overflow: hidden; }
+  .container { width: calc(100% - 28px); }
+  .topline { display: none; }
+  .section-kicker { font-size: 9px; letter-spacing: .14em; }
+  .button,
+  .button-primary,
+  .button-secondary { min-height: 42px; padding: 12px 16px; font-size: 10px; }
+
+  /* Home hero */
+  .hero { height: 560px; min-height: 560px; }
+  .hero-inner { height: 100%; min-height: 0; padding-top: 26px; padding-bottom: 26px; }
+  .hero-copy { max-width: 315px; margin-top: 0; }
+  .hero-season { margin: 12px 0 10px; font-size: 9px; }
+  .hero h1 { max-width: 315px; font-size: clamp(48px, 13vw, 62px); line-height: .86; }
+  .hero-description { max-width: 285px; margin: 16px 0 18px; font-size: 12px; line-height: 1.45; }
+  .hero-actions { gap: 12px; flex-wrap: wrap; }
+  .story-link { font-size: 10px; }
+  .hero-side-note { display: none; }
+  .hero-bottom { gap: 12px; }
+  .hero-meta { gap: 3px; }
+  .hero-meta strong { font-size: 12px; }
+  .hero-meta span { font-size: 8px; }
+  .slider-controls { gap: 7px; }
+  .slider-arrow { width: 35px; height: 35px; }
+  .pause-button { font-size: 8px; }
+  .hero-scroll { display: none; }
+  .league-rail { min-height: 88px; }
+  .league-rail-inner { padding-top: 17px; padding-bottom: 17px; }
+  .rail-label { font-size: 8px; }
+  .competition { min-width: 112px; padding: 5px 11px; font-size: 10px; }
+  .competition-logo { width: 27px; height: 27px; }
+
+  /* Home: compact sections and cards */
+  .stories-section { padding: 50px 0 54px; }
+  .stories-section::before { top: 92px; font-size: 74px; }
+  .stories-section .section-heading { margin-bottom: 24px; }
+  .stories-section .section-heading h2 { font-size: clamp(39px, 11.5vw, 53px); line-height: .88; }
+  .stories-section .section-heading .text-link { margin-top: 12px; font-size: 11px; }
+  .stories-section .news-carousel { gap: 12px; }
+  .stories-section .news-feature { display: block; position: relative; min-height: 0; height: 315px; border-radius: 14px; }
+  .stories-section .news-feature-media { height: 315px; min-height: 315px; }
+  .stories-section .news-feature-copy { position: absolute; right: 0; bottom: 0; left: 0; z-index: 2; display: block; min-height: 0; padding: 58px 15px 14px; background: linear-gradient(180deg, transparent, rgba(10,23,56,.96) 42%); }
+  .stories-section .news-feature-copy .story-category { margin-bottom: 7px; font-size: 9px; }
+  .stories-section .news-feature-copy h3 { max-width: 300px; font-size: clamp(22px, 6.5vw, 29px); line-height: .94; }
+  .stories-section .news-feature-excerpt { max-width: 300px; margin: 8px 0 10px; font-size: 11px; line-height: 1.35; }
+  .stories-section .news-feature-actions { gap: 8px; margin-top: 0; padding-top: 8px; }
+  .stories-section .news-feature-meta { font-size: 8px; }
+  .stories-section .news-feature-read { display: none; }
+  .stories-section .news-rail { min-height: 0; padding: 13px 11px 11px; border-radius: 14px; }
+  .stories-section .news-rail-head { padding-bottom: 10px; font-size: 9px; }
+  .stories-section .news-rail-head span:last-child { font-size: 12px; }
+  .stories-section .news-list { padding-top: 0; }
+  .stories-section .news-item { grid-template-columns: 18px 58px minmax(0,1fr) 24px; gap: 7px; padding: 7px 0; }
+  .stories-section .news-thumb { height: 48px; border-radius: 7px; }
+  .stories-section .news-item-copy { gap: 3px; }
+  .stories-section .news-item-copy strong { max-height: 25px; overflow: hidden; font-size: 11px; line-height: 1.03; }
+  .stories-section .news-item-copy em { font-size: 7px; }
+  .stories-section .news-item-arrow { width: 24px; height: 24px; font-size: 11px; }
+  .stories-section .news-controls { padding-top: 9px; }
+
+  .match-section { padding-bottom: 48px; }
+  .match-centre-backdrop { height: 390px; }
+  .match-hero-ball { top: 64px; width: 145px; height: 145px; }
+  .match-centre-hero { min-height: 0; padding: 38px 0 24px; gap: 20px; }
+  .match-centre-hero .match-intro { max-width: 100%; }
+  .match-centre-hero .match-intro h2 { max-width: 320px; font-size: clamp(45px, 12.5vw, 58px); line-height: .84; }
+  .match-centre-hero .match-intro > p:not(.section-kicker) { max-width: 285px; margin: 14px 0 17px; font-size: 12px; line-height: 1.45; }
+  .match-open-button { min-height: 40px; }
+  .match-centre-hero .season-lockup { min-width: 0; width: 100%; margin-top: 0; padding: 14px 15px; border-radius: 11px; }
+  .match-centre-hero .season-ball { width: 46px; height: 46px; }
+  .match-centre-hero .season-lockup strong { font-size: 22px; }
+  .match-centre-hero .season-lockup > div > span { font-size: 8px; }
+  .upcoming-grid { margin: 10px 0 14px; }
+  .upcoming-card { min-height: 0; padding: 13px 14px; border-radius: 10px; }
+  .upcoming-card h4 { margin: 13px 0 4px; font-size: 20px; }
+  .upcoming-teams { gap: 5px; margin-top: 9px; font-size: 11px; }
+  .upcoming-teams .team-badge { width: 20px; height: 20px; }
+  .countdown { left: 14px; right: auto; bottom: 12px; }
+  .countdown-item { min-width: 27px; padding: 5px 4px; }
+  .countdown-item strong { font-size: 16px; }
+  .match-tabs { gap: 6px; margin: 12px 0 13px; }
+  .match-tab { padding: 8px 14px; font-size: 10px; }
+  .match-module { padding: 11px 8px 8px; border-radius: 9px; }
+  .match-module .match-panel-heading { gap: 7px; margin-bottom: 8px; }
+  .match-module .match-panel-heading h3 { font-size: 18px; }
+  .match-view-all { padding: 6px 8px; font-size: 7px; }
+  .match-row { grid-template-columns: 48px minmax(0,1fr) 42px; min-height: 45px; gap: 5px; padding: 6px 3px; }
+  .match-row-date { font-size: 8px; }
+  .match-row-main strong { gap: 4px; font-size: 10px; }
+  .row-team { gap: 4px; }
+  .row-team-badge { width: 16px; height: 16px; }
+  .match-score { padding: 4px 6px; font-size: 16px; }
+  .match-pagination { gap: 7px; padding-top: 9px; font-size: 8px; }
+
+  .moments-section { padding: 50px 0 54px; }
+  .moments-section::before { top: 78px; font-size: 70px; }
+  .moments-heading { display: block; margin-bottom: 20px; }
+  .moments-heading .section-kicker { margin-bottom: 9px; }
+  .moments-heading h2 { font-size: clamp(36px, 11.5vw, 52px); line-height: .86; }
+  .moments-lede { max-width: 310px; margin-top: 10px; font-size: 12px; line-height: 1.45; }
+  .moments-actions { margin-top: 17px; padding: 10px 12px; }
+  .moments-status { font-size: 8px; }
+  .moments-strip { display: flex; gap: 10px; overflow-x: auto; padding: 3px 1px 9px; }
+  .moment-card,
+  .moment-card:first-child { flex: 0 0 145px; width: 145px; height: 250px; min-width: 145px; transform: none !important; border-radius: 12px; }
+  .moment-copy { right: 10px; bottom: 10px; left: 10px; }
+  .moment-copy strong { max-width: 115px; font-size: 16px; }
+  .moment-badge { top: 9px; right: 9px; padding: 3px 7px; font-size: 7px; }
+  .moments-footer { gap: 9px; padding-top: 11px; font-size: 7px; }
+  .moments-footer > span:nth-child(2) { font-size: 11px; }
+
+  .leadership-section { padding: 50px 0 56px; }
+  .leadership-section::before { font-size: 150px; }
+  .leadership-heading { display: block; margin-bottom: 22px; }
+  .leadership-heading h2 { margin-top: 9px; font-size: clamp(37px, 11.5vw, 52px); }
+  .leadership-heading > div > p:last-child { margin-top: 11px; font-size: 12px; line-height: 1.45; }
+  .leadership-portal { display: inline-flex; margin-top: 15px; padding: 10px 12px; font-size: 8px; }
+  .leadership-grid { gap: 11px; }
+  .leader-card { grid-template-columns: 1fr; min-height: 0; }
+  .leader-photo { min-height: 215px; height: 215px; }
+  .leader-copy { padding: 18px 15px 17px; }
+  .leader-kicker { margin-bottom: 8px; font-size: 8px; }
+  .leader-copy h3 { margin-bottom: 16px; font-size: 34px; }
+  .leader-roles { gap: 9px; }
+  .leader-roles div { grid-template-columns: 58px 1fr; gap: 7px; padding-bottom: 8px; }
+  .leader-roles span { font-size: 7px; }
+  .leader-roles strong { font-size: 10px; }
+  .leader-roles em { font-size: 8px; }
+  .leader-copy blockquote { margin-top: 16px; padding-left: 10px; font-size: 11px; line-height: 1.35; }
+  .leadership-stats { min-height: 0; padding: 15px; }
+  .leadership-stats-head { padding-bottom: 11px; font-size: 8px; }
+  .leadership-stat { min-height: 86px; }
+  .leadership-stat strong { font-size: 28px; }
+  .leadership-stat span { margin-top: 5px; font-size: 8px; }
+  .leadership-stamp { padding-top: 13px; }
+
+  .fan-zone { padding: 50px 0 56px; }
+  .fan-zone::before { top: 70px; font-size: 70px; }
+  .fan-zone-heading { display: block; margin-bottom: 22px; }
+  .fan-zone-heading h2 { font-size: clamp(36px, 11.5vw, 52px); }
+  .fan-zone-heading > p { max-width: 300px; margin-top: 11px; font-size: 12px; }
+  .fan-zone-grid { gap: 10px; }
+  .fan-points-card,
+  .prediction-card,
+  .award-card,
+  .trivia-card { min-height: 0; padding: 17px; border-radius: 13px; }
+  .fan-points-total { margin: 45px 0 12px; }
+  .fan-points-total strong { font-size: 62px; }
+  .fan-points-card p { font-size: 11px; }
+  .fan-points-card > a { right: 17px; bottom: 17px; font-size: 8px; }
+  .prediction-card h3, .award-card h3, .trivia-card h3 { margin: 17px 0 3px; font-size: 25px; }
+  .prediction-match { margin: 18px 0 15px; }
+  .prediction-team { font-size: 11px; }
+  .prediction-badge { width: 26px; height: 26px; }
+  .poll-options { gap: 6px; }
+  .prediction-result { margin: 14px 0 13px; font-size: 10px; }
+
+  .newsletter { padding: 50px 0 56px; }
+  .newsletter::before { font-size: 72px; }
+  .newsletter-inner { grid-template-columns: 1fr; gap: 15px; }
+  .newsletter-mark { display: none; }
+  .newsletter h2 { font-size: clamp(38px, 11.5vw, 53px); }
+  .newsletter-copy > p:last-child { max-width: 300px; margin-top: 10px; font-size: 11px; line-height: 1.45; }
+  .newsletter-form { padding: 14px 12px 12px; }
+  .newsletter-form label { margin-bottom: 7px; font-size: 8px; }
+  .newsletter-form input { min-height: 38px; font-size: 11px; }
+  .newsletter-form button { padding: 9px 13px; font-size: 9px; }
+
+  /* Shared inner pages */
+  .article-hero,
+  .clubs-hero,
+  .competition-hero,
+  .contact-hero,
+  .league-detail-hero,
+  .news-hero,
+  .leadership-hero,
+  .club-profile-hero,
+  .prediction-hero { min-height: 0; }
+  .article-hero,
+  .clubs-hero,
+  .competition-hero,
+  .news-hero,
+  .leadership-hero,
+  .club-profile-hero,
+  .prediction-hero { padding-top: 34px; padding-bottom: 34px; }
+  .article-hero-heading h1,
+  .clubs-hero-copy h1,
+  .competition-hero h1,
+  .contact-hero-copy h1,
+  .league-hero-identity h1,
+  .news-hero-copy h1,
+  .leadership-hero-copy h1,
+  .club-hero-identity h1,
+  .prediction-hero-copy h1 { font-size: clamp(42px, 12.5vw, 62px); line-height: .86; }
+  .article-hero-heading p,
+  .clubs-hero-copy > p:not(.section-kicker),
+  .competition-hero-copy > p:not(.competition-kicker),
+  .contact-hero-copy > p:not(.section-kicker),
+  .news-hero-copy > p:not(.section-kicker),
+  .leadership-hero-copy > p:not(.section-kicker),
+  .prediction-hero-copy > p:not(.section-kicker) { font-size: 12px; line-height: 1.45; }
+  .article-body-section,
+  .clubs-directory-section,
+  .competition-news-section,
+  .competition-section,
+  .featured-section,
+  .fixtures-leaders-section,
+  .scorers-section,
+  .quick-stats-section,
+  .contact-office-section,
+  .contact-connect-section,
+  .contact-location-section,
+  .contact-quick-section,
+  .contact-faq-section,
+  .league-detail-content,
+  .news-section,
+  .prediction-challenge-section,
+  .quiz-section,
+  .daily-section,
+  .my-predictions-section,
+  .leaderboard-section,
+  .previous-results-section,
+  .leadership-board-section,
+  .leadership-charter-section,
+  .leadership-secretariat-section,
+  .club-profile-panel { padding-top: 50px; padding-bottom: 56px; }
+
+  /* Inner page boxes */
+  .article-hero-image { height: 245px; min-height: 0; }
+  .article-hero-heading { padding: 17px 0 21px; }
+  .article-body-section .container { max-width: 100%; }
+  .news-hero-inner,
+  .competition-hero-inner,
+  .leadership-hero-inner,
+  .clubs-hero-inner { min-height: 0; padding-top: 0; padding-bottom: 0; }
+  .news-hero-story { min-height: 0; }
+  .news-hero-image { min-height: 240px; height: 240px; }
+  .news-hero-story-copy { padding: 18px 15px; }
+  .featured-news-grid,
+  .latest-news-grid,
+  .category-news-grid,
+  .women-news-grid,
+  .competition-news-grid,
+  .leadership-member-grid,
+  .leadership-board-grid,
+  .secretariat-role-grid,
+  .club-directory-grid { gap: 10px; }
+  .featured-card,
+  .latest-news-card,
+  .category-news-card,
+  .women-news-card,
+  .competition-news-feature,
+  .competition-news-card,
+  .leadership-member-card,
+  .secretariat-role-card,
+  .directory-club-card,
+  .league-card { min-height: 0; }
+  .league-card { padding: 15px; }
+  .league-card h3 { font-size: 20px; }
+  .league-card-description { min-height: 0; margin: 7px 0 11px; font-size: 10px; }
+  .competition-news-image { min-height: 225px; }
+  .competition-news-copy { padding: 15px; }
+  .competition-news-copy h3 { font-size: 23px; }
+  .fixture-panel, .leader-panel { padding: 18px 14px 14px; border-radius: 13px; }
+  .panel-heading { margin-bottom: 16px; }
+  .quick-stats-grid, .scorer-grid { gap: 9px; }
+
+  .contact-hero-inner { grid-template-columns: 1fr; gap: 15px; min-height: 0; padding-top: 0; padding-bottom: 0; }
+  .contact-hero-updated,
+  .contact-hero-updated .contact-hero-inner { min-height: 0; }
+  .contact-hero-copy h1 { margin: 13px 0 15px; font-size: clamp(43px, 12.5vw, 62px); }
+  .contact-hero-copy h1 em { margin-top: 7px; }
+  .contact-hero-actions { gap: 11px; margin-top: 18px; }
+  .contact-hero-visual { min-height: 230px; }
+  .contact-visual-panel { top: 13px; right: 34px; width: 190px; height: 215px; }
+  .contact-visual-ring-one { width: 240px; height: 240px; right: -5px; }
+  .contact-visual-ring-two { width: 172px; height: 172px; right: 28px; top: 35px; }
+  .contact-office-grid,
+  .contact-connect-grid,
+  .contact-location-grid,
+  .contact-quick-grid { gap: 10px; }
+  .contact-office-card,
+  .contact-email-card,
+  .contact-info-card,
+  .contact-form-card,
+  .contact-directions-card,
+  .contact-map-card,
+  .quick-contact-card { min-height: 0; padding: 18px 15px; border-radius: 13px; }
+  .contact-card-icon, .contact-email-icon { width: 44px; height: 44px; margin: 19px 0 14px; }
+  .contact-office-card address { font-size: 12px; line-height: 1.45; }
+  .contact-email-card h3 { font-size: 28px; }
+  .contact-section-heading h2,
+  .contact-note-inner h2 { font-size: clamp(38px, 11.5vw, 54px); }
+  .contact-note-inner { grid-template-columns: 1fr; gap: 15px; }
+  .contact-note-inner > p { font-size: 12px; line-height: 1.5; }
+
+  .prediction-hero { padding-top: 34px; padding-bottom: 30px; }
+  .prediction-hero-inner { grid-template-columns: 1fr; min-height: 0; gap: 18px; padding-top: 0; padding-bottom: 0; }
+  .prediction-hero-card { width: 100%; padding: 15px; }
+  .prediction-hero-points { margin: 27px 0 21px; }
+  .prediction-hero-points strong { font-size: 66px; }
+  .prediction-filter-section .container { min-height: 0; padding-top: 15px; padding-bottom: 15px; }
+  .prediction-section-heading { margin-bottom: 22px; }
+  .prediction-section-heading h2, .previous-heading h2 { font-size: clamp(38px, 11.5vw, 52px); }
+  .prediction-section-heading > p { margin-top: 10px; font-size: 11px; line-height: 1.45; }
+  .prediction-challenge-layout, .quiz-layout { gap: 10px; }
+  .match-challenge-card, .challenge-aside-card, .prediction-flow, .quiz-card, .daily-card, .leaderboard-shell { padding: 15px; border-radius: 12px; }
+  .match-card-main { grid-template-columns: minmax(0,1fr) 56px minmax(0,1fr); padding: 15px 12px; }
+  .my-predictions-grid, .previous-results-grid { gap: 9px; }
+  .my-prediction-card { min-height: 0; padding: 14px; }
+  .daily-question-panel { padding: 15px; }
+
+  /* Club profiles and directory */
+  .club-hero-layout { grid-template-columns: 1fr; min-height: 0; gap: 15px; padding: 25px 0 28px; }
+  .club-hero-badge { width: 94px; height: 94px; border-width: 5px; padding: 10px; }
+  .club-hero-identity h1 { margin: 11px 0 10px; font-size: clamp(42px, 12vw, 59px); }
+  .club-hero-meta { margin-top: 14px; }
+  .club-hero-position { padding: 13px; }
+  .club-hero-position strong { font-size: 54px; margin: 8px 0; }
+  .club-profile-tabs .container { min-height: 49px; }
+  .club-profile-tab { padding: 0 10px; font-size: 8px; }
+  .profile-panel-heading { display: block; margin-bottom: 18px; }
+  .profile-panel-heading h2 { font-size: clamp(37px, 11vw, 51px); }
+  .profile-panel-note { margin-top: 9px; text-align: left; }
+  .profile-card, .history-card, .fixture-card, .team-stat-card { padding: 15px; border-radius: 12px; }
+  .profile-card h3, .history-card h3 { font-size: 21px; }
+  .club-overview-grid, .overview-lower-grid, .fixture-grid, .history-grid, .team-stat-grid { gap: 9px; }
+  .club-facts-grid { gap: 9px; margin-top: 15px; }
+  .fixture-card-top { margin-bottom: 13px; }
+  .fixture-card-bottom { margin-top: 13px; padding-top: 9px; }
+  .team-stat-card strong { margin-top: 11px; font-size: 31px; }
+  .history-honours { margin-bottom: 14px; padding: 27px 0 23px; border-radius: 13px; }
+  .history-honours-heading { margin-bottom: 16px; }
+  .history-honours-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; padding: 0 14px; }
+  .history-honour-card { min-height: 120px; padding: 14px 9px; }
+  .history-honour-card strong { font-size: 26px; }
+  .history-timeline { gap: 8px; }
+  .history-milestone { padding: 12px; }
+}
+/* Compact global footer */
+.site-footer { padding: 52px 0 18px; }
+.site-footer-watermark { font-size: 210px; bottom: -76px; }
+.footer-main { gap: 28px; padding-bottom: 36px; }
+.footer-brand-panel > p { margin: 19px 0 15px; font-size: 18px; }
+.footer-link-column, .footer-office-column { gap: 7px; }
+.footer-column-title { margin-bottom: 7px; }
+.footer-column-subtitle { margin-top: 10px; }
+
+/* Countdown fixture cards: keep team names and timer in separate rows */
+.match-section .upcoming-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 17px 18px 14px;
+}
+.match-section .upcoming-card h4 { margin: 20px 0 5px; }
+.match-section .upcoming-teams {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto 28px minmax(0, 1fr);
+  align-items: center;
+  gap: 7px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(10, 23, 56,.12);
+  font-size: 12px;
+}
+.match-section .upcoming-teams strong {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.match-section .upcoming-teams b { justify-self: center; }
+.match-section .upcoming-teams .team-badge { width: 28px; height: 28px; }
+.match-section .countdown {
+  position: static;
+  align-self: flex-end;
+  margin-top: 10px;
+  gap: 6px;
+}
+.match-section .countdown-item {
+  min-width: 29px;
+  padding: 4px 4px 3px;
+  border-radius: 7px;
+  background: rgba(10, 23, 56,.07);
+}
+.match-section .countdown-item strong { font-size: 18px; }
+.match-section .countdown-item span { margin-top: 3px; font-size: 6px; }
+
+@media (max-width: 1100px) {
+  .site-footer { padding-top: 44px; }
+  .footer-main { gap: 23px; padding-bottom: 30px; }
+}
+
+@media (max-width: 640px) {
+  /* A shorter footer with a compact brand row and tighter link rhythm */
+  .site-footer { padding: 27px 0 11px; }
+  .site-footer-watermark { font-size: 145px; right: -22px; bottom: -52px; }
+  .footer-main {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 14px 12px;
+    padding-bottom: 19px;
+  }
+  .footer-brand-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: center;
+    column-gap: 12px;
+    row-gap: 9px;
+  }
+  .footer-brand { grid-column: 1; }
+  .footer-brand .brand-mark { width: 43px; height: 43px; }
+  .footer-brand-panel > p {
+    grid-column: 2;
+    max-width: none;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 1.05;
+  }
+  .footer-signature { grid-column: 1 / -1; font-size: 7px; }
+  .footer-link-column, .footer-office-column { gap: 4px; }
+  .footer-column-title { margin-bottom: 2px; font-size: 7px; letter-spacing: .14em; }
+  .footer-link-column a, .footer-office-column a { font-size: 8.5px; line-height: 1.15; }
+  .footer-link-column a span, .footer-office-column a span { margin-left: 4px; font-size: 11px; }
+  .footer-column-subtitle { margin-top: 8px; font-size: 7px; }
+  .footer-office-column {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+    column-gap: 12px;
+    row-gap: 4px;
+  }
+  .footer-office-column .footer-column-title,
+  .footer-office-column > p { grid-column: 1 / -1; }
+  .footer-office-column > p { max-width: 100%; margin: 0; font-size: 9px; line-height: 1.25; }
+  .footer-office-link { margin-top: 0; }
+  .footer-bottom { gap: 8px; padding-top: 9px; font-size: 8px; line-height: 1.25; }
+  .footer-bottom div { gap: 8px; }
+
+  /* Countdown cards on the home page */
+  .match-section .upcoming-card { padding: 13px 14px 11px; }
+  .match-section .upcoming-card h4 { margin: 13px 0 4px; font-size: 20px; }
+  .match-section .upcoming-details { gap: 7px; font-size: 8px; }
+  .match-section .upcoming-teams {
+    grid-template-columns: 22px minmax(0, 1fr) auto 22px minmax(0, 1fr);
+    gap: 4px;
+    margin-top: 8px;
+    padding-top: 8px;
+    font-size: 10px;
+  }
+  .match-section .upcoming-teams .team-badge { width: 22px; height: 22px; font-size: 10px; }
+  .match-section .upcoming-teams b { font-size: 8px; }
+  .match-section .countdown { align-self: flex-start; margin-top: 8px; gap: 4px; }
+  .match-section .countdown-item { min-width: 27px; padding: 4px 3px 3px; }
+  .match-section .countdown-item strong { font-size: 16px; }
+}
+
+@media (max-width: 360px) {
+  .footer-brand-panel { column-gap: 8px; }
+  .footer-brand-panel > p { font-size: 12px; }
+  .footer-link-column a, .footer-office-column a { font-size: 8px; }
+  .match-section .upcoming-teams { grid-template-columns: 20px minmax(0,1fr) auto 20px minmax(0,1fr); gap: 3px; font-size: 9px; }
+  .match-section .upcoming-teams .team-badge { width: 20px; height: 20px; }
+}
