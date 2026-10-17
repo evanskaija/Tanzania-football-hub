@@ -20,7 +20,7 @@
     'PREDICTION': 'UTABIRI', 'Think you know Tanzanian football? Predict matches, answer football questions, earn points and compete with fans across the country.': 'Unaijua soka la Tanzania? Tabiri mechi, jibu maswali ya soka, pata pointi na shindana na mashabiki kote nchini.', 'All': 'Yote', 'Today': 'Leo', 'This week': 'Wiki hii', 'This month': 'Mwezi huu', 'Season': 'Msimu', 'MATCHDAY CHALLENGE': 'CHANGAMOTO YA SIKU YA MECHI', 'TODAY’S PREDICTION CHALLENGE': 'CHANGAMOTO YA LEO YA UTABIRI', 'Who will win?': 'Nani atashinda?', 'Home Win': 'Ushindi wa Nyumbani', 'Draw': 'Sare', 'Away Win': 'Ushindi wa Ugenini', 'Prediction Locked': 'Utabiri Umefungwa', 'Awaiting Result': 'Inasubiri Matokeo', 'Correct Prediction': 'Utabiri Sahihi', 'Fan Leaderboard': 'Orodha ya Mashabiki Bora', 'Prediction closes in': 'Utabiri unafungwa baada ya', 'Predictions Closed': 'Utabiri Umefungwa', 'Choose an outcome to save your prediction.': 'Chagua matokeo ili kuhifadhi utabiri wako.', 'Your call is in.': 'Utabiri wako umehifadhiwa.', 'Every prediction is saved immediately, locked at kickoff and settled once from the official result.': 'Kila utabiri huhifadhiwa mara moja, hufungwa wakati wa kuanza na kuthibitishwa kwa matokeo rasmi.', 'The official result is still pending.': 'Matokeo rasmi bado yanasubiriwa.', 'Correct match winner': 'Mshindi sahihi wa mechi', 'Incorrect prediction': 'Utabiri usio sahihi', 'Your predictions': 'Utabiri wako', 'Previous results': 'Matokeo yaliyopita', 'Live fan ranking': 'Orodha hai ya mashabiki', 'Current rank': 'Nafasi ya sasa', 'Total points': 'Jumla ya pointi', 'Prediction points': 'Pointi za utabiri', 'Quiz points': 'Pointi za chemsha bongo', 'My fan score': 'Alama zangu za shabiki', 'My quiz score': 'Alama zangu za chemsha bongo', 'No money. Just the game.': 'Hakuna pesa. Mchezo tu.', 'Choose your arena': 'Chagua uwanja wako', 'New challenge every day': 'Changamoto mpya kila siku', 'Complete today’s challenge to begin': 'Kamilisha changamoto ya leo ili kuanza', 'Answers are saved as you go.': 'Majibu huhifadhiwa unapoendelea.', 'Question missed.': 'Swali limekosa jibu.', 'This quiz is complete.': 'Chemsha bongo hii imekamilika.', 'Quiz completed': 'Chemsha bongo imekamilika', 'Review answers': 'Kagua majibu', 'Submit Quiz': 'Wasilisha chemsha bongo', 'Loading quiz question...': 'Inapakia swali la chemsha bongo...', 'Loading today’s challenge...': 'Inapakia changamoto ya leo...', 'Next question': 'Swali linalofuata', 'Correct': 'Sahihi', 'Incorrect': 'Si sahihi', 'Missed': 'Limekosa jibu', 'Your result is ready.': 'Matokeo yako yako tayari.', 'Your answers are locked.': 'Majibu yako yamefungwa.', 'You have answered all 5 questions. Your answers cannot be changed after submission.': 'Umejibu maswali yote 5. Majibu yako hayawezi kubadilishwa baada ya kuwasilisha.', 'No answer was submitted in 40 seconds.': 'Hakuna jibu lililowasilishwa ndani ya sekunde 40.', 'No answer was submitted in 20 seconds.': 'Hakuna jibu lililowasilishwa ndani ya sekunde 20.', '40 seconds': 'Sekunde 40', '20 seconds': 'Sekunde 20', 'points': 'pointi', 'pts': 'pt', 'goals': 'mabao', 'days': 'siku', 'hrs': 'masaa', 'mins': 'dak', 'secs': 'sek', 'UPCOMING': 'ZIJAZO', 'LIVE': 'MOJA KWA MOJA', 'FT': 'MWISHO', 'POSTPONED': 'IMEAHIRISHWA', 'UP NEXT': 'INAYOFUATA', 'vs': 'dhidi ya', 'Home': 'Mwanzo', 'Away': 'Ugenini',
     'Leadership with purpose.': 'Uongozi wenye dhamira.', 'Meet the people carrying Tanzania football’s competitions forward — with clear governance, professional standards and a shared ambition for the game.': 'Wakutane na watu wanaoendesha mashindano ya soka Tanzania — kwa uongozi ulio wazi, viwango vya kitaalamu na dhamira ya pamoja kwa mchezo.', 'Meet the office leaders and department heads keeping competition, clubs and communication moving together.': 'Wakutane na viongozi wa ofisi na wakuu wa idara wanaowezesha mashindano, vilabu na mawasiliano kusonga pamoja.', 'Board positions listed': 'Nafasi za bodi zilizoorodheshwa', 'Executive secretariat': 'Sekretarieti ya utendaji', 'Focused on the game': 'Tunaelekeza nguvu kwenye mchezo', 'Leadership bodies': 'Vyombo vya uongozi', 'The people entrusted with the league’s direction, standards and long-term growth.': 'Watu waliokabidhiwa mwelekeo, viwango na ukuaji wa muda mrefu wa ligi.', 'Strong competitions need strong stewardship.': 'Mashindano imara yanahitaji uongozi imara.',
     'Stories with weight.': 'Habari zenye uzito.', 'The game never stands still.': 'Mchezo hausimami kamwe.', 'Unmissable moment': 'Tukio lisilokosekana', 'Moment replay.': 'Rudia tukio.', 'Press play to watch the selected moment.': 'Bonyeza cheza kutazama tukio lililochaguliwa.', 'Video unavailable': 'Video haipatikani', 'This moment is available as a still image.': 'Tukio hili linapatikana kama picha tu.', 'Sound on for the full matchday feel': 'Washa sauti upate hisia kamili za siku ya mechi', 'MATCH CENTRE': 'KITUO CHA MECHI', 'FIXTURES': 'RATIBA', 'RESULTS': 'MATOKEO', 'TABLE': 'MSIMAMO', 'COUNTDOWN TO KICKOFF': 'HESABU KURUDI HADI MWANZO', 'VIEW ALL MATCHES': 'TAZAMA MECHI ZOTE', 'View full table': 'Tazama msimamo kamili', 'Vote & claim +30 PTS': 'Piga kura na pata +30 PT', 'Read more': 'Soma zaidi', 'Question': 'Swali', 'Answer': 'Jibu', 'Change': 'Badilisha', 'Member': 'Mwanachama', 'President': 'Rais', 'AFCON Host': 'Mwenyeji wa AFCON', 'CAF League Rank': 'Nafasi ya Ligi CAF', 'Long-range finish': 'Mkwaju wa mbali', 'OFFICIAL AWARD': 'TUZO RASMI', 'OFFICIAL BRIEF': 'TAARIFA RASMI',
-    'TFF OFFICIAL PORTAL': 'TOVUTI RASMI YA TFF', 'NBC Championship': 'NBC Championship', 'NBC Championship League': 'NBC Championship League', 'First League': 'First League', 'Women’s Premier League': 'Women’s Premier League', 'Women\'s Premier League': 'Women\'s Premier League', 'Ligi Kuu': 'Ligi Kuu', 'Tanzania Premier League Board': 'Bodi ya Ligi Kuu Tanzania', '14th Floor, NSSF Mafao House': 'Ghorofa ya 14, NSSF Mafao House', 'Plot No. 40, Block Y, Ilala': 'Kiwanja Na. 40, Kitalu Y, Ilala', 'Dar es Salaam, Tanzania.': 'Dar es Salaam, Tanzania.', 'Official league office': 'Ofisi rasmi ya ligi', 'The office is on the 14th Floor of NSSF Mafao House, Plot No. 40, Block Y, Ilala, Dar es Salaam.': 'Ofisi iko Ghorofa ya 14 ya NSSF Mafao House, Kiwanja Na. 40, Kitalu Y, Ilala, Dar es Salaam.',
+    'TFF OFFICIAL PORTAL': 'TOVUTI RASMI YA TFF', 'NBC Championship': 'NBC Championship', 'NBC Championship League': 'NBC Championship', 'First League': 'Ligi ya Kwanza', 'Women’s Premier League': 'Ligi Kuu ya Wanawake', 'Women\'s Premier League': 'Women\'s Premier League', 'Ligi Kuu': 'Ligi Kuu', 'Tanzania Premier League Board': 'Bodi ya Ligi Kuu Tanzania', '14th Floor, NSSF Mafao House': 'Ghorofa ya 14, NSSF Mafao House', 'Plot No. 40, Block Y, Ilala': 'Kiwanja Na. 40, Kitalu Y, Ilala', 'Dar es Salaam, Tanzania.': 'Dar es Salaam, Tanzania.', 'Official league office': 'Ofisi rasmi ya ligi', 'The office is on the 14th Floor of NSSF Mafao House, Plot No. 40, Block Y, Ilala, Dar es Salaam.': 'Ofisi iko Ghorofa ya 14 ya NSSF Mafao House, Kiwanja Na. 40, Kitalu Y, Ilala, Dar es Salaam.',
     'Error': 'Hitilafu', 'Please enter a valid email address.': 'Tafadhali weka anwani sahihi ya barua pepe.', 'Something went wrong. Please try again.': 'Kuna hitilafu imetokea. Tafadhali jaribu tena.', 'You’re in': 'Umejiunga', "You're in": 'Umejiunga', 'Welcome to the clubhouse. Check your inbox for the first whistle.': 'Karibu kwenye uwanja wa klabu. Angalia kikasha chako kwa habari ya kwanza.', 'Your message has been sent successfully. Our team will get back to you shortly.': 'Ujumbe wako umetumwa kwa mafanikio. Timu yetu itawasiliana nawe hivi karibuni.'
   };
 
@@ -407,12 +407,350 @@
     "Welcome to the clubhouse. Check your inbox for the first whistle.": "Karibu kwenye uwanja wa klabu. Angalia kikasha chako kwa habari ya kwanza.", "Subscription saved on this device. You can unsubscribe from the clubhouse email.": "Usajili umehifadhiwa kwenye kifaa hiki. Unaweza kujiondoa kwenye barua pepe za uwanja wa klabu.", "Subscription removed from this device.": "Usajili umeondolewa kwenye kifaa hiki."
   });
 
-  const wordTranslations = {
+
+  Object.assign(translations, {
+    "Story - Tanzania Major League": "Habari - Ligi Kuu Tanzania",
+    "Tanzania Major League - Tanzania Football, in full colour": "Ligi Kuu Tanzania - Soka la Tanzania, kwa rangi kamili",
+    "TANZANIA MAJOR LEAGUE": "LIGI KUU TANZANIA",
+    "MAJOR LEAGUE": "LIGI KUU",
+    "Made in Tanzania.": "Imetengenezwa Tanzania.",
+    "Don't just watch. Stay close.": "Usitazame tu. Endelea kuwa karibu.",
+    "THE NEW SEASON": "MSIMU MPYA",
+    "2026 / 27 - THE SEASON IS ALIVE": "2026 / 27 - MSIMU UNAENDELEA",
+    "Wear the colour.": "Vaa rangi hii.",
+    "A new season, in full colour.": "Msimu mpya, kwa rangi kamili.",
+    "Explore the story": "Gundua habari",
+    "Watch the pulse": "Tazama msisimko",
+    "Now playing": "Inachezwa sasa",
+    "FEATURED STORY": "HABARI ILIYOANGAZIWA",
+    "The shirt that starts a new chapter": "Jezi inayoanza sura mpya",
+    "Portraits - Tanzania": "Picha - Tanzania",
+    "Scroll to explore": "Shuka kuchunguza",
+    "Stories with weight.": "Habari zenye uzito.",
+    "One country.": "Nchi moja.",
+    "One rhythm.": "Mdundo mmoja.",
+    "Keep an eye on the fixtures, follow the form, and never miss the moment the game turns.": "Fuatilia ratiba na kiwango, usikose wakati mchezo unapobadilika.",
+    "COUNTDOWN TO KICKOFF": "HESABU KURUDI HADI MWANZO",
+    "Unmissable goals, skills and pitchside celebrations.": "Mabao, ustadi na shangwe za pembeni mwa uwanja zisizokosekana.",
+    "CURATED COLLECTION": "MKUSANYO ULIOCHAGULIWA",
+    "CURATED GALLERY": "MATUKIO YALIYOCHAGULIWA",
+    "THE MOMENT": "TUKIO",
+    "THE FINISHER": "MFUNGAJI",
+    "THE ENGINE": "NGUVU YA TIMU",
+    "THE WALL": "UKUTA",
+    "THE TOUCH": "MGUSO",
+    "THE GAME NEVER STANDS STILL": "Mchezo hausimami kamwe",
+    "05 MOMENTS": "MATUKIO 05",
+    "Moment replay.": "Rudia tukio.",
+    "Competitions": "Mashindano",
+    "Competition": "Mashindano",
+    "All competitions": "Mashindano yote",
+    "NBC Premier League": "NBC Ligi Kuu",
+    "NBC Championship": "NBC Championship",
+    "NBC Championship League": "NBC Championship",
+    "First League": "Ligi ya Kwanza",
+    "Women's Premier League": "Ligi Kuu ya Wanawake",
+    "Womenâ€™s Premier League": "Ligi Kuu ya Wanawake",
+    "Ligi Kuu": "Ligi Kuu",
+    "Search the notebook": "Tafuta kwenye daftari la habari",
+    "Search the clubhouse": "Tafuta kwenye uwanja wa klabu",
+    "Search the directory": "Tafuta kwenye orodha",
+    "Search the league": "Tafuta kwenye ligi",
+    "Search clubs": "Tafuta vilabu",
+    "Find a club fast.": "Pata klabu haraka.",
+    "Find the next story.": "Pata habari inayofuata.",
+    "Find your next story.": "Pata habari yako inayofuata.",
+    "Every badge. Every story.": "Kila nembo. Kila habari.",
+    "Pick a badge. Go deeper.": "Chagua nembo. Chunguza zaidi.",
+    "Explore competitions": "Gundua mashindano",
+    "Profiles connected": "Wasifu umeunganishwa",
+    "64 BADGES ONE HOME": "NEMBO 64 NYUMBA MOJA",
+    "Get in touch.": "Wasiliana nasi.",
+    "Have a question, enquiry or need assistance? Our team is here to help.": "Una swali, ombi au unahitaji msaada? Timu yetu iko hapa kukusaidia.",
+    "Board of Members": "Bodi ya Wajumbe",
+    "View Secretariat": "Tazama Sekretarieti",
+    "View rewards": "Tazama tuzo",
+    "Open full prediction": "Fungua utabiri kamili",
+    "Change": "Badilisha",
+    "Select the best strike from Matchday 26:": "Chagua mkwaju bora wa Siku ya Mechi 26:",
+    "Vote for this goal": "Pigia kura bao hili",
+    "Open the Prediction page to play this quiz": "Fungua ukurasa wa Utabiri kucheza chemsha bongo hii",
+    "Contact office": "Wasiliana na ofisi",
+    "Official desk": "Dawati rasmi",
+    "Visit the office": "Tembelea ofisi",
+    "Back to top": "Rudi juu",
+    "The home of Tanzania football": "Nyumbani kwa soka la Tanzania",
+    "Football from Tanzania,": "Soka kutoka Tanzania,",
+    "with the volume up.": "kwa sauti ya juu.",
+    "No noise. Just football. Unsubscribe whenever.": "Hakuna kelele. Soka tu. Jiondoe wakati wowote.",
+    "Made in Tanzania": "Imetengenezwa Tanzania",
+    "Switch to": "Badilisha kwenda",
+    "selected": "imechaguliwa",
+    "Show story": "Onyesha habari",
+    "Show news story": "Onyesha habari ya habari",
+    "Read more:": "Soma zaidi:",
+    "Close moment video": "Funga video ya tukio",
+    "Sound on for the full matchday feel": "Washa sauti upate hisia kamili za siku ya mechi"
+  });
+  // Page titles, generated status messages and small labels are also routed
+  // through the shared translator so the choice works across every page.
+  Object.assign(translations, {
+    "Tanzania Major League - Tanzania Football, in full colour": "Tanzania Major League - Soka la Tanzania, kwa rangi kamili",
+    "Latest Football News - Tanzania Major League": "Habari za Hivi Karibuni za Soka - Tanzania Major League",
+    "Competitions - Tanzania Major League": "Mashindano - Tanzania Major League",
+    "Clubs - Tanzania Major League": "Vilabu - Tanzania Major League",
+    "Club Profile - Tanzania Major League": "Wasifu wa Klabu - Tanzania Major League",
+    "Leadership - Tanzania Major League": "Uongozi - Tanzania Major League",
+    "League - Tanzania Major League": "Ligi - Tanzania Major League",
+    "Prediction - Tanzania Major League": "Utabiri - Tanzania Major League",
+    "Contact - Tanzania Major League": "Mawasiliano - Tanzania Major League",
+    "Story - Tanzania Major League": "Habari - Tanzania Major League",
+    "Join the club": "Jiunge na klabu",
+    "Latest Football": "Soka la Hivi Karibuni",
+    "Latest competition": "Mashindano ya hivi karibuni",
+    "Latest news": "Habari za hivi karibuni",
+    "Contact desk": "Dawati la mawasiliano",
+    "Email the board": "Tuma barua pepe kwa bodi",
+    "Email the board at": "Tuma barua pepe kwa bodi kupitia",
+    "Find a club": "Pata klabu",
+    "Find your next": "Pata inayofuata",
+    "Find the": "Pata",
+    "Find a quick answer or send the office a message if you need more help.": "Pata jibu la haraka au tuma ujumbe kwa ofisi ikiwa unahitaji msaada zaidi.",
+    "Choose a side": "Chagua upande",
+    "Choose an answer to continue.": "Chagua jibu ili kuendelea.",
+    "Choose Home Win, Draw or Away Win. Your selection is saved immediately and can only change before the deadline.": "Chagua ushindi wa nyumbani, sare au ushindi wa ugenini. Chaguo lako huhifadhiwa mara moja na linaweza kubadilishwa kabla ya muda kuisha.",
+    "Awaiting the official final result.": "Inasubiri matokeo rasmi ya mwisho.",
+    "It is locked at kickoff and will be settled from the official final result.": "Utabiri hufungwa wakati wa kuanza na kuthibitishwa kwa matokeo rasmi ya mwisho.",
+    "Complete today's challenge to begin": "Kamilisha changamoto ya leo ili kuanza",
+    "Complete today's five-question challenge. The same scoring applies: 5/5 earns 3 points, 4/5 earns 2, 3/5 earns 1, and 0–2 earns 0.": "Kamilisha changamoto ya leo yenye maswali matano. Mfumo wa alama ni huu: 5/5 hupata pointi 3, 4/5 hupata 2, 3/5 hupata 1, na 0–2 hupata 0.",
+    "Answers are saved as you go. No quiz points are awarded until you submit all five answers.": "Majibu huhifadhiwa unapoendelea. Hakuna pointi za chemsha bongo zinazotolewa hadi uwasilishe majibu yote matano.",
+    "One prediction per match. The official result settles your point after full time.": "Utabiri mmoja kwa kila mechi. Matokeo rasmi yanaamua pointi yako baada ya muda wote wa mchezo.",
+    "One sharp home for the stories, voices and matchday details moving Tanzanian football across all four competitions.": "Mahali pamoja bora kwa habari, sauti na maelezo ya siku ya mechi yanayosogeza soka la Tanzania katika mashindano yote manne.",
+    "Every card opens a full club profile with its league table, fixtures, player numbers, team metrics and history.": "Kila kadi inafungua wasifu kamili wa klabu wenye msimamo wa ligi, ratiba, takwimu za wachezaji, vipimo vya timu na historia.",
+    "Explore clubs from Tanzania's top football competitions. Find every badge, home ground, league position and the story behind the squad.": "Gundua vilabu kutoka mashindano makubwa ya soka Tanzania. Pata kila nembo, uwanja wa nyumbani, nafasi ya ligi na historia ya kikosi.",
+    "Keep showing up. Every prediction, vote and quiz answer moves you closer to VIP matchday access.": "Endelea kushiriki. Kila utabiri, kura na jibu la chemsha bongo linakusogeza karibu na fursa ya VIP ya siku ya mechi.",
+    "Live rankings require a connected fan account.": "Orodha hai inahitaji akaunti ya shabiki iliyounganishwa.",
+    "Load more stories": "Pakia habari zaidi",
+    "Make your call before kickoff. Your answers lock at the deadline, and fan voting percentages appear only after you submit.": "Toa chaguo lako kabla ya kuanza kwa mechi. Majibu yako hufungwa muda wa mwisho, na asilimia za kura za mashabiki huonekana baada ya kuwasilisha.",
+    "Select Fixtures & Results in the message form and include the match details so the office can route the enquiry.": "Chagua Ratiba na Matokeo kwenye fomu ya ujumbe na uweke maelezo ya mechi ili ofisi ipeleke ombi lako kwenye dawati sahihi.",
+    "Select Media & Press or email the board with your publication and request details.": "Chagua Vyombo vya Habari na Waandishi au tuma barua pepe kwa bodi ukiweka maelezo ya chapisho na ombi lako.",
+    "Settled prediction results will appear here after official results are confirmed.": "Matokeo ya utabiri yaliyothibitishwa yataonekana hapa baada ya matokeo rasmi kuthibitishwa.",
+    "Sponsorship, partnership and football development enquiries.": "Maombi kuhusu udhamini, ushirikiano na maendeleo ya soka.",
+    "Tell us how we can help and the league office will route your message to the right desk.": "Tuambie tunavyoweza kukusaidia na ofisi ya ligi itapeleka ujumbe wako kwenye dawati sahihi.",
+    "The executive office and operational departments that turn league strategy into a professional matchday experience.": "Ofisi ya utendaji na idara zinazogeuza mkakati wa ligi kuwa uzoefu wa kitaalamu wa siku ya mechi.",
+    "The finishers turning chances into momentum across Tanzania's four competitions.": "Wafungaji wanaogeuza nafasi kuwa msukumo katika mashindano manne ya Tanzania.",
+    "The people entrusted with the league's direction, standards and long-term growth.": "Watu waliokabidhiwa mwelekeo, viwango na ukuaji wa muda mrefu wa ligi.",
+    "The players shaping this league, from the golden boot race to the clean-sheet battle. Switch the category and stay close to the numbers.": "Wachezaji wanaoipa ligi sura, kutoka mbio za ufungaji hadi ushindani wa kutofungwa. Badilisha kundi na fuatilia takwimu.",
+    "The Women's Premier League deserves its own front row. Follow the players, clubs and moments building the next chapter.": "Ligi Kuu ya Wanawake inastahili nafasi yake ya mbele. Fuatilia wachezaji, vilabu na matukio yanayojenga sura inayofuata.",
+    "Your answers persist on this device. A connected account and server database are required for cross-device leaderboard sync.": "Majibu yako yanahifadhiwa kwenye kifaa hiki. Akaunti iliyounganishwa na hifadhidata ya seva vinahitajika kusawazisha orodha ya mashabiki kwenye vifaa mbalimbali.",
+    "Your saved match predictions will appear here.": "Utabiri wako wa mechi uliouhifadhi utaonekana hapa.",
+    "Your live ranking should come from registered fan accounts and settled point transactions.": "Nafasi yako hai inapaswa kutoka kwenye akaunti za mashabiki waliosajiliwa na miamala ya pointi iliyothibitishwa.",
+    "Who will take the 3 points today?": "Nani atachukua pointi 3 leo?",
+    "Vote, test your knowledge, earn fan points and win VIP match tickets.": "Piga kura, pima maarifa yako, pata pointi za shabiki na ushinde tiketi za mechi za VIP.",
+    "View All FAQs": "Tazama Maswali Yote Yanayoulizwa Mara kwa Mara",
+    "View all matches": "Tazama mechi zote",
+    "View full table": "Tazama msimamo kamili",
+    "View leaderboard": "Tazama orodha ya wanaoongoza",
+    "View my full record": "Tazama rekodi yangu kamili",
+    "View the league office": "Tazama ofisi ya ligi",
+    "Visit the league office": "Tembelea ofisi ya ligi",
+    "Your calls,": "Chaguo zako,",
+    "your record.": "rekodi yako.",
+    "YOUR SCORECARD": "ALAMA ZAKO",
+    "Status: Awaiting Result": "Hali: Inasubiri Matokeo",
+    "Refresh-safe save": "Hifadhi salama baada ya kusasisha",
+    "One hot streak.": "Mfululizo mmoja wa ushindi.",
+    "Read the game.": "Soma mchezo.",
+    "Call the moment.": "Amua tukio.",
+    "Ten challenges.": "Changamoto kumi.",
+    "Fifty questions.": "Maswali hamsini.",
+    "Tanzania football": "Soka la Tanzania",
+    "Tanzania Football Federation (TFF)": "Shirikisho la Mpira wa Miguu Tanzania (TFF)",
+    "with a pulse.": "wenye msisimko.",
+    "with purpose.": "wenye dhamira.",
+    "weight.": "uzito.",
+    "Stories with": "Habari zenye",
+    "Share the": "Shiriki",
+    "Stay close to": "Kaa karibu na",
+    "Wear the": "Vaa",
+    "Unsubscribe this device": "Jiondoe kwenye kifaa hiki",
+    "Play now": "Cheza sasa",
+    "Start daily challenge": "Anza changamoto ya kila siku",
+    "Submit Quiz?": "Wasilisha Chemsha Bongo?",
+    "Select the best strike from Matchday 26:": "Chagua mkwaju bora wa Siku ya Mechi ya 26:"
+  });  Object.assign(translations, {
+    "Tanzania Major League": "Tanzania Major League",
+    "Tanzania Premier League": "Ligi Kuu ya Tanzania",
+    "Tanzania Premier": "Ligi Kuu ya Tanzania",
+    "Premier League": "Ligi Kuu",
+    "Championship League": "Ligi ya Ubingwa",
+    "NBC Premier": "NBC Ligi Kuu",
+    "© 2026 Tanzania Major League. Made in Tanzania.": "© 2026 Tanzania Major League. Imetengenezwa Tanzania.",
+    "We are here to": "Tupo hapa kwa",
+    "Reach the Tanzania Premier League Board for official correspondence, competition support and league enquiries.": "Wasiliana na Bodi ya Ligi Kuu Tanzania kwa mawasiliano rasmi, msaada wa mashindano na maombi ya ligi.",
+    "Frequently asked": "Maswali yanayoulizwa mara kwa mara",
+    "questions.": "yanayoulizwa mara kwa mara.",
+    "message form above.": "fomu ya ujumbe hapo juu.",
+    "Back to top ?": "Rudi juu",
+    "View all matches ?": "Tazama mechi zote",
+    "View full table ?": "Tazama msimamo kamili",
+    "Continue to next quiz ?": "Endelea na chemsha bongo inayofuata",
+    "Open full prediction ?": "Fungua utabiri kamili",
+    "P.O. Box 79043": "P.O. Box 79043",
+    "Clubs can use the official league email and select Clubs or Competition Information in the enquiry type.": "Vilabu vinaweza kutumia barua pepe rasmi ya ligi na kuchagua Vilabu au Taarifa za Mashindano kwenye aina ya ombi.",
+    "Competition information, fixtures, results and league matters.": "Taarifa za mashindano, ratiba, matokeo na masuala ya ligi.",
+    "Follow one league or play every challenge.": "Fuatilia ligi moja au cheza kila changamoto.",
+    "One prediction per match. The official result settles your point after full time.": "Utabiri mmoja kwa kila mechi. Matokeo rasmi yanaamua pointi yako baada ya muda wote wa mchezo.",
+    "One standard.": "Kiwango kimoja.",
+    "One badge.": "Nembo moja.",
+    "Every badge.": "Kila nembo.",
+    "Every story.": "Kila habari.",
+    "Every card opens a full club profile with its league table, fixtures, player numbers, team metrics and history.": "Kila kadi inafungua wasifu kamili wa klabu wenye msimamo wa ligi, ratiba, takwimu za wachezaji, vipimo vya timu na historia.",
+    "Points. Ranks. Bragging rights.": "Pointi. Nafasi. Haki ya kujivunia.",
+    "Search by club name, city or home stadium to find the profile you are after.": "Tafuta kwa jina la klabu, jiji au uwanja wa nyumbani ili kupata wasifu unaoutafuta.",
+    "Select an enquiry type": "Chagua aina ya ombi",
+    "Select Fixtures & Results": "Chagua Ratiba na Matokeo",
+    "View All FAQs": "Tazama Maswali Yote Yanayoulizwa Mara kwa Mara",
+    "View leaderboard": "Tazama orodha ya wanaoongoza",
+    "View my full record": "Tazama rekodi yangu kamili",
+    "Visit the league office": "Tembelea ofisi ya ligi",
+    "Vote for this goal": "Piga kura kwa bao hili",
+    "Play-off": "Mchujo",
+    "Level 4": "Kiwango 4",
+    "Updates": "Masasisho",
+    "updates.": "masasisho.",
+    "Now playing": "Inachezwa sasa",
+    "Live fan ranking": "Orodha hai ya mashabiki",
+    "Not ranked": "Bila nafasi",
+    "Most read.": "Zilizosomwa zaidi.",
+    "Recent calls": "Chaguo za hivi karibuni",
+    "Your answers persist on this device. A connected account and server database are required for cross-device leaderboard sync.": "Majibu yako yanahifadhiwa kwenye kifaa hiki. Akaunti iliyounganishwa na hifadhidata ya seva vinahitajika kusawazisha orodha ya mashabiki kwenye vifaa mbalimbali."
+  });  Object.assign(translations, {
+    "Tanzania Major League home": "Nyumbani Tanzania Major League",
+    "Tanzania Premier League Board contact office": "Ofisi ya mawasiliano ya Bodi ya Ligi Kuu Tanzania",
+    "Stylized map showing the Tanzania Premier League Board office in Ilala, Dar es Salaam": "Ramani inayoonyesha ofisi ya Bodi ya Ligi Kuu Tanzania huko Ilala, Dar es Salaam",
+    "Premier League Board.": "Bodi ya Ligi Kuu.",
+    "Official league office": "Ofisi rasmi ya ligi",
+    "Come to the": "Njoo kwenye",
+    "league office.": "ofisi ya ligi.",
+    "Our office is located on the 14th Floor of NSSF Mafao House in Ilala, Dar es Salaam.": "Ofisi yetu iko Ghorofa ya 14 ya NSSF Mafao House huko Ilala, Dar es Salaam.",
+    "or use the message form above.": "au tumia fomu ya ujumbe hapo juu.",
+    "Frequently asked": "Maswali"
+  });  Object.assign(translations, {
+    "Find us in": "Pata katika",
+    "NSSF Mafao House, Plot No. 40, Block Y, Ilala, Dar es Salaam.": "NSSF Mafao House, Kiwanja Na. 40, Kitalu Y, Ilala, Dar es Salaam."
+  });  Object.assign(translations, {
+    "Tanzania Major League - news, stories and the rhythm of Tanzanian football.": "Tanzania Major League - habari, simulizi na mdundo wa soka la Tanzania.",
+    "Explore Tanzania football competitions, fixtures, results, tables, top scorers and latest news.": "Gundua mashindano ya soka Tanzania, ratiba, matokeo, misimamo, wafungaji bora na habari za hivi karibuni.",
+    "Meet the Board of Members and Secretariat guiding Tanzania football competitions.": "Kutana na Bodi ya Wajumbe na Sekretarieti inayoongoza mashindano ya soka Tanzania.",
+    "League overview, fixtures, results, table, clubs, scorers and news from Tanzania Major League.": "Muhtasari wa ligi, ratiba, matokeo, msimamo, vilabu, wafungaji na habari kutoka Tanzania Major League.",
+    "Latest football news from Tanzania Major League.": "Habari za hivi karibuni za soka kutoka Tanzania Major League.",
+    "Prediction games, football quizzes and fan rewards for Tanzania football supporters.": "Michezo ya utabiri, chemsha bongo za soka na tuzo za mashabiki wa soka la Tanzania.",
+    "Tanzania Major League football story.": "Habari ya soka ya Tanzania Major League.",
+    "Contact the Tanzania Premier League Board for official enquiries, competition support and office correspondence in Dar es Salaam.": "Wasiliana na Bodi ya Ligi Kuu Tanzania kwa maombi rasmi, msaada wa mashindano na mawasiliano ya ofisi Dar es Salaam."
+  });  const wordTranslations = {
     live: 'moja kwa moja', alive: 'hai', box: 'eneo la hatari', portrait: 'picha', portraits: 'picha', fire: 'moto', returns: 'inarejea', future: 'mustakabali', digital: 'dijitali', secretariat: 'sekretarieti', stronger: 'imara zaidi', credibility: 'uaminifu', raise: 'ongeza', experience: 'uzoefu', many: 'mangapi', title: 'taji', titles: 'mataji', strike: 'mkwaju', matchday: 'siku ya mechi', best: 'bora', trivia: 'maswali ya maarifa', rewards: 'tuzo', reward: 'tuzo', matchweek: 'wiki ya mechi', country: 'nchi', ways: 'njia', rhythm: 'mdundo', shaping: 'zinazoipa sura', pressure: 'presha', prove: 'kuthibitisha', noise: 'kelele', sharp: 'bora', email: 'barua pepe', voices: 'sauti', moving: 'zinazosonga', forward: 'mbele', finishers: 'wafungaji', turning: 'zinazogeuza', chances: 'nafasi', momentum: 'msukumo', proving: 'kujithibitisha', hungry: 'zenye kiu', build: 'jenga', chase: 'wania', promotion: 'kupanda daraja', raw: 'halisi', ambition: 'azma', local: 'ya eneo', pride: 'fahari', generation: 'kizazi', skill: 'ustadi', speed: 'kasi', standard: 'kiwango', ranks: 'nafasi', rights: 'haki', money: 'pesa', it: 'hilo', unranked: 'bila nafasi', refresh: 'kuonyesha upya', safe: 'salama', earned: 'zilizopatikana', knowledge: 'maarifa', left: 'iliyobaki',
     from: 'kutoka', football: 'soka', news: 'habari', without: 'bila', filter: 'chujio', official: 'rasmi', match: 'mechi', matches: 'mechi', day: 'siku', days: 'siku', week: 'wiki', weeks: 'wiki', month: 'mwezi', months: 'miezi', story: 'habari', stories: 'habari', latest: 'za hivi karibuni', fresh: 'mpya', home: 'nyumbani', away: 'ugenini', club: 'klabu', clubs: 'vilabu', player: 'mchezaji', players: 'wachezaji', team: 'timu', teams: 'timu', league: 'ligi', leagues: 'ligi', competition: 'mashindano', competitions: 'mashindano', table: 'msimamo', tables: 'misimamo', fixtures: 'ratiba', fixture: 'ratiba', results: 'matokeo', result: 'matokeo', season: 'msimu', current: 'sasa', upcoming: 'zijazo', completed: 'zilizokamilika', read: 'soma', more: 'zaidi', view: 'tazama', all: 'yote', select: 'chagua', search: 'tafuta', sort: 'panga', by: 'kwa', position: 'nafasi', positions: 'nafasi', founded: 'ilianzishwa', city: 'jiji', stadium: 'uwanja', coach: 'kocha', colors: 'rangi', recent: 'za karibuni', form: 'kiwango', quick: 'fupi', numbers: 'takwimu', performance: 'utendaji', data: 'takwimu', profile: 'wasifu', history: 'historia', overview: 'muhtasari', stats: 'takwimu', goals: 'mabao', goal: 'bao', assists: 'pasi za mabao', points: 'pointi', point: 'pointi', rank: 'nafasi', ranked: 'walioorodheshwa', top: 'bora', scorer: 'mfungaji', scorers: 'wafungaji', leader: 'kiongozi', leaders: 'vinara', today: 'leo', saturday: 'Jumamosi', sunday: 'Jumapili', monday: 'Jumatatu', tuesday: 'Jumanne', wednesday: 'Jumatano', thursday: 'Alhamisi', friday: 'Ijumaa', minutes: 'dakika', minute: 'dakika', seconds: 'sekunde', second: 'sekunde', hours: 'masaa', hour: 'saa', mins: 'dak', min: 'dak', hrs: 'masaa', hr: 'saa', secs: 'sek', sec: 'sek', next: 'inayofuata', previous: 'iliyotangulia', open: 'fungua', close: 'funga', start: 'anza', continue: 'endelea', submit: 'wasilisha', answer: 'jibu', answers: 'majibu', question: 'swali', questions: 'maswali', correct: 'sahihi', incorrect: 'si sahihi', missed: 'limekosa jibu', saved: 'imehifadhiwa', save: 'hifadhi', locked: 'imefungwa', lock: 'funga', pending: 'inasubiri', awaiting: 'inasubiri', choose: 'chagua', choice: 'chaguo', change: 'badilisha', prediction: 'utabiri', predictions: 'utabiri', quiz: 'chemsha bongo', challenge: 'changamoto', challenges: 'changamoto', daily: 'kila siku', fan: 'shabiki', fans: 'mashabiki', ranking: 'orodha', leaderboard: 'orodha ya wanaoongoza', total: 'jumla', local: 'ya hapa', account: 'akaunti', level: 'kiwango', following: 'wanaofuatilia', show: 'onyesha', showing: 'inaonyesha', name: 'jina', email: 'barua pepe', phone: 'simu', number: 'namba', subject: 'mada', message: 'ujumbe', contact: 'mawasiliano', office: 'ofisi', help: 'msaada', information: 'taarifa', support: 'msaada', general: 'jumla', type: 'aina', other: 'nyingine', regulations: 'kanuni', resources: 'rasilimali', tickets: 'tiketi', system: 'mfumo', management: 'usimamizi', round: 'raundi', rounds: 'raundi', full: 'kamili', time: 'muda', status: 'hali',
     the: '', a: '', an: '', "don't": '', "you're": 'upo', "you’re": 'upo', "today's": 'ya leo', "today’s": 'ya leo', "women's": 'ya wanawake', "women’s": 'ya wanawake', never: 'kamwe', miss: 'kosa', moment: 'tukio', turns: 'hubadilika', just: 'tu', one: 'moja', two: 'mbili', three: 'tatu', four: 'nne', five: 'tano', six: 'sita', ten: 'kumi', and: 'na', with: 'na', for: 'kwa', to: 'kwa', in: 'katika', on: 'kwenye', of: 'ya', is: 'ni', are: 'ni', your: 'yako', my: 'yangu', our: 'yetu', this: 'hii', that: 'hiyo', every: 'kila', each: 'kila', no: 'hakuna', or: 'au', as: 'kama', at: 'kwenye', before: 'kabla ya', after: 'baada ya', big: 'kubwa', bigger: 'kubwa zaidi', new: 'mpya', strong: 'imara', most: 'zaidi', behind: 'nyuma ya', inside: 'ndani ya', across: 'katika', where: 'wapi', how: 'vipi', what: 'nini', which: 'ipi', who: 'nani', will: 'ita', can: 'inaweza', have: 'una', has: 'ime', need: 'hitaji', find: 'pata', keep: 'endelea', follow: 'fuatilia', make: 'fanya', take: 'chukua', earn: 'pata', win: 'shinda', play: 'cheza', watch: 'tazama', share: 'shiriki', copy: 'nakili', link: 'kiungo', back: 'rudi', visit: 'tembelea', welcome: 'karibu', please: 'tafadhali', enter: 'weka', valid: 'sahihi', field: 'sehemu', required: 'inahitajika', error: 'hitilafu', people: 'watu', leadership: 'uongozi', board: 'bodi', member: 'mjumbe', members: 'wajumbe', executive: 'utendaji', department: 'idara', president: 'rais', chairperson: 'mwenyekiti', vice: 'makamu', chief: 'mkuu', officer: 'afisa', acting: 'kaimu', secretary: 'katibu', representative: 'mwakilishi', appointed: 'aliyeteuliwa', list: 'orodha', badges: 'nembo', badge: 'nembo', indexed: 'vimeorodheshwa', shown: 'imeonyeshwa', explore: 'gundua', stage: 'jukwaa', game: 'mchezo', games: 'michezo', lives: 'unaishi', here: 'hapa', picture: 'taswira', front: 'mbele', page: 'ukurasa', pulse: 'msisimko', roar: 'kishindo', stands: 'viwanjani', last: 'mwisho', touch: 'mguso', step: 'hatua', volume: 'sauti', draw: 'sare', loss: 'kipigo', losses: 'vipigo', shots: 'mikwaju', corners: 'kona', fouls: 'makosa', yellow: 'njano', red: 'nyekundu', cards: 'kadi', rating: 'alama', age: 'umri', made: 'imetengenezwa'
   };
-  const translateWord = (word) => {
+  Object.assign(wordTranslations, {
+    wear: "vaa", colour: "rangi", rise: "inuka", built: "jengwa", build: "jenga", mark: "alama", become: "kuwa", becomes: "inakuwa", plans: "mipango", new: "mpya", season: "msimu", colour: "rangi", moment: "tukio", moments: "matukio", big: "kubwa", picture: "taswira", touchline: "pembeni mwa uwanja", player: "mchezaji", file: "jalada", engine: "nguvu", wall: "ukuta", finisher: "mfungaji", featured: "iliyoangaziwa", curated: "iliyochaguliwa", collection: "mkusanyo", gallery: "ghala", pitchside: "pembeni mwa uwanja", celebrations: "shangwe", skills: "ustadi", colour: "rangi", major: "kuu", first: "kwanza", championship: "mashindano ya ubingwa", premier: "kuu", clubhouse: "uwanja wa klabu", notebook: "daftari la habari", desk: "dawati", official: "rasmi", resources: "rasilimali", regulations: "kanuni", pdf: "PDF", address: "anwani", phone: "simu", send: "tuma", enquiry: "ombi", enquiries: "maombi", press: "waandishi", media: "vyombo vya habari", sponsorship: "udhamini", partnership: "ushirikiano", partnerships: "ushirikiano", governance: "utawala", directory: "orodha", details: "maelezo", chapter: "sura", finish: "umaliziaji", winner: "mshindi", winners: "washindi", score: "alama", scoring: "ufungaji", awards: "tuzo", award: "tuzo", vote: "piga kura", appear: "onekana", available: "inapatikana", loading: "inapakia", final: "mwisho", complete: "kamilika", answered: "yamejibiwa", immediately: "mara moja", deadline: "muda wa mwisho", connected: "umeunganishwa", located: "iko", return: "rejea", record: "rekodi", shared: "imeshirikiwa", meet: "kutana", together: "pamoja", still: "bado", professional: "kitaalamu", only: "tu", long: "ndefu", clear: "wazi", call: "ita", scroll: "shuka", now: "sasa", stay: "kaa", whenever: "wakati wowote", today: "leo", tomorrow: "kesho", october: "Oktoba", november: "Novemba", december: "Desemba", january: "Januari", february: "Februari", march: "Machi", april: "Aprili", may: "Mei", june: "Juni", july: "Julai", august: "Agosti", september: "Septemba", "don't": "usi", you: "wewe", know: "jua", what: "nini", use: "tumia", get: "pata", per: "kwa kila", into: "kuwa", own: "chake", her: "wake", its: "yake", together: "pamoja", available: "inapatikana"
+  });
+  Object.assign(wordTranslations, {
+    "facts": "ukweli", "fact": "ukweli", "logo": "nembo", "logos": "nembo", "weight": "uzito", "shirt": "jezi", "shirts": "jezi", "starts": "inaanza", "start": "anza",
+    "pause": "sitisha", "slideshow": "onyesho la slaidi", "rotation": "mzunguko", "closed": "imefungwa",
+    "zone": "eneo", "interactive": "shirikishi", "council": "baraza", "confederation": "shirikisho",
+    "east": "mashariki", "central": "kati", "africa": "Afrika", "operations": "uendeshaji",
+    "committee": "kamati", "statement": "taarifa", "statements": "taarifa", "bring": "leta",
+    "life": "maisha", "shine": "ng'ara", "place": "nafasi", "kicks": "anza", "kick": "mkwaju",
+    "off": "rasmi", "fourth": "nne", "renewed": "iliyoboreshwa", "plenty": "mengi", "access": "ufikiaji",
+    "moves": "inakusogeza", "move": "sogeza", "closer": "karibu", "up": "juu", "showing": "inaonyesha",
+    "award": "tuzo", "awarded": "imetolewa", "interactive": "shirikishi", "rewards": "tuzo", "board": "bodi",
+    "members": "wanachama", "positions": "nafasi", "listed": "zilizoorodheshwa", "pick": "chagua",
+    "side": "upande", "sides": "pande", "outcome": "matokeo", "before": "kabla ya", "after": "baada ya",
+    "deadline": "muda wa mwisho", "title": "taji", "titles": "mataji", "champion": "bingwa", "champions": "mabingwa",
+    "record": "rekodi", "card": "kadi", "cards": "kadi", "opens": "inafungua", "opening": "ufunguzi",
+    "metrics": "vipimo", "deserves": "inastahili", "row": "mstari", "come": "kuja", "conversation": "mazungumzo",
+    "quickly": "haraka", "fast": "haraka", "deep": "kwa kina", "deeper": "kwa kina zaidi", "full": "kamili",
+    "latest": "za hivi karibuni", "officially": "rasmi", "ready": "tayari", "persist": "hifadhi",
+    "everywhere": "kila mahali", "countrywide": "nchini kote", "across": "katika", "against": "dhidi ya",
+    "between": "kati ya", "through": "kupitia", "from": "kutoka", "towards": "kuelekea", "another": "nyingine",
+    "yourself": "mwenyewe", "knowledge": "maarifa", "test": "pima", "finish": "kamilisha", "finished": "imekamilika",
+    "calculate": "hesabu", "calculated": "imehesabiwa", "applies": "inatumika", "same": "sawa", "five": "tano",
+    "four": "nne", "three": "tatu", "two": "mbili", "one": "moja", "zero": "sifuri", "maximum": "kiwango cha juu",
+    "max": "kiwango cha juu", "earned": "zilizopatikana", "awarded": "imetolewa", "streak": "mfululizo",
+    "per": "kwa kila", "quiz": "chemsha bongo", "quizzes": "chemsha bongo", "available": "inapatikana",
+    "completed": "zilizokamilika", "unavailable": "haipatikani", "selected": "iliyochaguliwa", "selected": "iliyochaguliwa",
+    "rotation": "mzunguko", "sections": "sehemu", "section": "sehemu", "centre": "kituo", "center": "kituo",
+    "home": "nyumbani", "away": "ugenini", "versus": "dhidi ya", "versus": "dhidi ya", "winner": "mshindi",
+    "loser": "mshindwa", "settled": "imethibitishwa", "settle": "thibitisha", "final": "mwisho", "result": "matokeo",
+    "results": "matokeo", "wait": "subiri", "waiting": "inasubiri", "refresh": "onyesha upya", "load": "pakia",
+    "loaded": "imepakiwa", "more": "zaidi", "less": "kidogo", "related": "zinazohusiana", "share": "shiriki",
+    "claim": "dai", "points": "pointi", "point": "pointi", "vote": "piga kura", "voting": "kupiga kura",
+    "percentages": "asilimia", "appear": "onekana", "appears": "inaonekana", "question": "swali", "questions": "maswali",
+    "answer": "jibu", "answers": "majibu", "correct": "sahihi", "incorrect": "si sahihi", "missed": "limekosa jibu",
+    "submit": "wasilisha", "submission": "uwasilishaji", "saved": "imehifadhiwa", "save": "hifadhi", "device": "kifaa",
+    "database": "hifadhidata", "server": "seva", "account": "akaunti", "registered": "umesajiliwa", "users": "watumiaji",
+    "multi-user": "watumiaji wengi", "sync": "sawazisha", "synchronization": "usawazishaji", "official": "rasmi",
+    "organization": "shirika", "organisations": "mashirika", "federation": "shirikisho", "federations": "mashirikisho",
+    "football": "soka", "league": "ligi", "leagues": "ligi", "premier": "kuu", "championship": "mashindano ya ubingwa"
+  });
+  Object.assign(wordTranslations, {
+    host: "mwenyeji", african: "Afrika", votes: "kura", voted: "imepigiwa kura", points: "pointi", pts: "pt",
+    awarded: "imetolewa", earned: "zilizopatikana", indexed: "vimeorodheshwa", badge: "nembo", badges: "nembo",
+    club: "klabu", clubs: "vilabu", competition: "mashindano", competitions: "mashindano", featured: "iliyoangaziwa",
+    every: "kila", card: "kadi", cards: "kadi", full: "kamili", account: "akaunti", accounts: "akaunti",
+    require: "hitaji", requires: "inahitajia", required: "inahitajika", connected: "iliyounganishwa",
+    server: "seva", database: "hifadhidata", cross: "kwenye", device: "kifaa", devices: "vifaa",
+    sync: "sawazisha", leaderboard: "orodha ya wanaoongoza", access: "ufikiaji", vip: "VIP",
+    call: "chaguo", calls: "machaguo", join: "jiunge", joined: "umejiunga", stay: "kaa", close: "karibu",
+    latest: "za hivi karibuni", football: "soka", image: "picha", images: "picha", video: "video",
+    sound: "sauti", feel: "hisia", right: "sahihi", route: "elekeza", publication: "chapisho", request: "ombi",
+    requests: "maombi", details: "maelezo", include: "jumuisha", send: "tuma", message: "ujumbe",
+    take: "chukua", point: "pointi", settled: "imethibitishwa", settlement: "uthibitisho", confirmed: "imethibitishwa",
+    confirm: "thibitisha", appear: "onekana", appears: "inaonekana", result: "matokeo", results: "matokeo",
+    status: "hali", awaiting: "inasubiri", official: "rasmi", final: "mwisho", locked: "imefungwa",
+    kickoff: "kuanza kwa mechi", deadline: "muda wa mwisho", switch: "badilisha", switched: "imebadilishwa",
+    category: "kundi", categories: "makundi", numbers: "takwimu", golden: "dhahabu", boot: "kiatu",
+    clean: "bila", sheet: "kufungwa", battle: "ushindani", term: "muda", growth: "ukuaji",
+    standards: "viwango", direction: "mwelekeo", long: "mrefu", entrusted: "waliokabidhiwa",
+    departments: "idara", professional: "kitaalamu", experience: "uzoefu", strategy: "mkakati",
+    finishers: "wafungaji", chances: "nafasi", momentum: "msukumo", moving: "zinazosonga",
+    top: "bora", ground: "uwanja", behind: "nyuma ya", squad: "kikosi", generation: "kizazi",
+    chapter: "sura", next: "inayofuata", previous: "iliyotangulia", question: "swali", questions: "maswali",
+    quiz: "chemsha bongo", quizzes: "chemsha bongo", challenge: "changamoto", challenges: "changamoto",
+    daily: "kila siku", start: "anza", submit: "wasilisha", play: "cheza", now: "sasa",
+    available: "inapatikana", unavailable: "haipatikani", ready: "tayari", perfect: "bora kabisa",
+    great: "vizuri", job: "kazi", good: "nzuri", run: "mwendo", missed: "limekosa jibu",
+    answer: "jibu", answers: "majibu", correct: "sahihi", incorrect: "si sahihi", review: "kagua",
+    all: "yote", show: "onyesha", load: "pakia", more: "zaidi", story: "habari", stories: "habari",
+    read: "soma", related: "zinazohusiana", share: "shiriki", unranked: "bila nafasi", rank: "nafasi",
+    ranked: "walioorodheshwa", leader: "kiongozi", leaders: "vinara", fan: "shabiki", fans: "mashabiki",
+    money: "pesa", just: "tu", game: "mchezo", games: "michezo", match: "mechi", matches: "mechi",
+    one: "moja", two: "mbili", three: "tatu", four: "nne", five: "tano", six: "sita", ten: "kumi",
+    hot: "mkali", streak: "mfululizo", read: "soma", close: "karibu", wear: "vaa", unsubscribe: "jiondoe",
+    field: "uwanja", player: "mchezaji", players: "wachezaji", team: "timu", teams: "timu", league: "ligi",
+    leagues: "ligi", table: "msimamo", tables: "mismamo", fixture: "ratiba", fixtures: "ratiba",
+    prediction: "utabiri", predictions: "utabiri", your: "yako", record: "rekodi", home: "nyumbani",
+    away: "ugenini", win: "shinda", draw: "sare", loss: "kipigo", losses: "vipigo", winner: "mshindi",
+    winners: "washindi", position: "nafasi", positions: "nafasi", performance: "utendaji",
+    quick: "fupi", stats: "takwimu", history: "historia", founded: "ilianzishwa", city: "jiji",
+    stadium: "uwanja", coach: "kocha", colors: "rangi", season: "msimu", current: "sasa",
+    upcoming: "zijazo", completed: "zilizokamilika", yes: "ndiyo", no: "hapana", can: "inaweza",
+    cannot: "haiwezi", before: "kabla ya", after: "baada ya", from: "kutoka", with: "na", without: "bila",
+    under: "chini ya", into: "kwenye", toward: "kuelekea", through: "kupitia", against: "dhidi ya",
+    between: "kati ya", about: "kuhusu", other: "nyingine", type: "aina", general: "jumla",
+    media: "vyombo vya habari", press: "waandishi", sponsorship: "udhamini", partnership: "ushirikiano",
+    partnerships: "ushirikiano", development: "maendeleo", enquiry: "ombi", enquiries: "maombi",
+    information: "taarifa", support: "msaada", office: "ofisi", visit: "tembelea", league: "ligi",
+    direct: "moja kwa moja", directly: "moja kwa moja", postal: "posta", correspondence: "mawasiliano",
+    location: "mahali", located: "iko", floor: "ghorofa", plot: "kiwanja", block: "kitalu",
+    left: "iliyobaki", duration: "muda", units: "vipimo", unit: "kipimo", minute: "dakika",
+    minutes: "dakika", second: "sekunde", seconds: "sekunde", hour: "saa", hours: "masaa",
+    next: "inayofuata", previous: "iliyotangulia", change: "badilisha", save: "hifadhi", saved: "imehifadhiwa",
+    immediately: "mara moja", whenever: "wakati wowote", welcome: "karibu", check: "kagua", inbox: "kikasha",
+    first: "kwanza", whistle: "filimbi", field: "uwanja", colour: "rangi", colours: "rangi"
+  });  const translateWord = (word) => {
     const mapped = wordTranslations[word.toLowerCase()];
     if (mapped === undefined) return null;
     if (!mapped) return '';
@@ -440,12 +778,21 @@
   const originalText = new WeakMap();
   const lastRenderedText = new WeakMap();
   const originalAttributes = new WeakMap();
-  const originalTitle = document.title;
+  const originalMetaDescriptions = new WeakMap();
+  let sourceTitle = document.title
+  let lastRenderedTitle = null;
   let language = DEFAULT_LANGUAGE;
   let observer;
 
   const normalize = (value) => String(value || '').replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
   const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const localizeLeagueNames = (value) => String(value)
+    .replace(/\bNBC\s+Premier\s+League\b/gi, 'NBC Ligi Kuu')
+    .replace(/\bNBC\s+Championship\s+League\b/gi, 'NBC Championship')
+    .replace(/\bNBC\s+Championship\b/gi, 'NBC Championship')
+    .replace(/\bFirst\s+League\b/gi, 'Ligi ya Kwanza')
+    .replace(/\bWomen[’']s\s+Premier\s+League\b/gi, 'Ligi Kuu ya Wanawake')
+    .replace(/\bPremier\s+League\b/gi, 'Ligi Kuu')
   const preserveWhitespace = (source, value) => {
     const leading = String(source).match(/^\s*/)?.[0] || '';
     const trailing = String(source).match(/\s*$/)?.[0] || '';
@@ -456,6 +803,8 @@
     if (!key) return null;
     if (language === 'eng') return key;
     if (Object.prototype.hasOwnProperty.call(translations, key)) return translations[key];
+    const caseInsensitiveKey = Object.keys(translations).find((candidate) => candidate.toLowerCase() === key.toLowerCase());
+    if (caseInsensitiveKey) return translations[caseInsensitiveKey];
     if (/^\d+ predictions saved$/.test(key)) return key.replace('predictions saved', 'utabiri umehifadhiwa');
     if (/^\d+-day streak$/.test(key)) return key.replace('-day streak', '-siku mfululizo');
     if (/^\+?\d+ POINTS?$/.test(key)) return key.replace('POINTS', 'POINTI').replace('POINT', 'POINTI');
@@ -484,7 +833,10 @@
     if (/^\d+ \/ \d+ FAN LEADERBOARD$/.test(key)) return key.replace('FAN LEADERBOARD', 'ORODHA YA MASHABIKI');
     if (/^\d+ of \d+ stories$/.test(key)) return key.replace('of', 'kati ya').replace('stories', 'habari');
     if (/^\d+ pts to next$/.test(key)) return key.replace('pts to next', 'pointi hadi inayofuata');
-    return translateByParts(key);
+    if (/^\d+ MIN READ$/i.test(key)) return key.replace(/ MIN READ$/i, ' DAKIKA ZA KUSOMA');
+    if (/^\d+ MOMENTS$/i.test(key)) return 'MATUKIO ' + key.match(/^\d+/)[0];
+    if (/^Show story \d+$/i.test(key)) return key.replace('Show story', 'Onyesha habari');
+    if (/^Show news story \d+$/i.test(key)) return key.replace('Show news story', 'Onyesha habari ya');    return translateByParts(key);
   };
   const textValue = (node) => {
     const current = node.nodeValue;
@@ -497,40 +849,58 @@
     if (shouldSkip(node)) return;
     const source = textValue(node);
     const result = lookup(source);
-    const next = language === 'eng' ? source : (result === null ? source : preserveWhitespace(source, result));
+    const next = language === 'eng' ? source : (result === null ? source : preserveWhitespace(source, localizeLeagueNames(result)));
     if (node.nodeValue !== next) node.nodeValue = next;
     lastRenderedText.set(node, next);
   };
   const translateAttributes = (root) => {
     const elements = root.nodeType === 1 ? [root, ...root.querySelectorAll('*')] : [...root.querySelectorAll('*')];
     elements.forEach((element) => {
-      ['placeholder', 'aria-label', 'title', 'alt'].forEach((attribute) => {
+      ['placeholder', 'aria-label', 'title', 'alt', 'value'].forEach((attribute) => {
         if (!element.hasAttribute(attribute)) return;
         let stored = originalAttributes.get(element);
         if (!stored) { stored = {}; originalAttributes.set(element, stored); }
         if (stored[attribute] === undefined) stored[attribute] = element.getAttribute(attribute);
         const source = stored[attribute];
         const mapped = attributeTranslations[source] || lookup(source);
-        element.setAttribute(attribute, language === 'eng' ? source : (mapped || source));
+        const next = language === 'eng' ? source : localizeLeagueNames(mapped || source);
+        if (element.getAttribute(attribute) !== next) element.setAttribute(attribute, next);
       });
     });
   };
-  const translatePage = () => {
+  const translateMetaDescription = () => {
+    const meta = document.querySelector('meta[name="description"]');
+    if (!meta) return;
+    if (!originalMetaDescriptions.has(meta)) originalMetaDescriptions.set(meta, meta.getAttribute('content') || '');
+    const source = originalMetaDescriptions.get(meta);
+    const mapped = lookup(source);
+    const next = language === 'eng' ? source : localizeLeagueNames(mapped || source);
+    if (meta.getAttribute('content') !== next) meta.setAttribute('content', next);
+  };  const translatePage = () => {
     document.documentElement.lang = languages[language].locale;
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
     const nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach(translateTextNode);
     translateAttributes(document.body);
-    if (!document.body.dataset.originalTitle) document.body.dataset.originalTitle = originalTitle;
-    const titleKey = language === 'swa' ? lookup(originalTitle) : originalTitle;
-    if (titleKey) document.title = titleKey;
+    translateMetaDescription();
+    if (lastRenderedTitle !== null && document.title !== lastRenderedTitle) sourceTitle = document.title;
+    const titleKey = language === 'swa' ? localizeLeagueNames(lookup(sourceTitle)) : sourceTitle;
+    if (titleKey && document.title !== titleKey) document.title = titleKey;
+    lastRenderedTitle = titleKey;
     updateSwitcher();
   };
-  const readLanguage = () => { try { const saved = window.localStorage.getItem(STORAGE_KEY); return saved && languages[saved] ? saved : DEFAULT_LANGUAGE; } catch (error) { return DEFAULT_LANGUAGE; } };
+  const readLanguage = () => { try { const requested = new URLSearchParams(window.location.search).get('lang'); if (requested && languages[requested]) return requested; const saved = window.localStorage.getItem(STORAGE_KEY); return saved && languages[saved] ? saved : DEFAULT_LANGUAGE; } catch (error) { return DEFAULT_LANGUAGE; } };
   const persistLanguage = () => { try { window.localStorage.setItem(STORAGE_KEY, language); } catch (error) { /* Local file previews may restrict storage. */ } };
   const updateSwitcher = () => {
-    document.querySelectorAll('[data-language-option]').forEach((button) => { const active = button.dataset.languageOption === language; button.classList.toggle('is-active', active); button.setAttribute('aria-pressed', String(active)); button.setAttribute('aria-label', active ? languages[language].label + ' selected' : 'Switch to ' + languages[button.dataset.languageOption].label); });
+    const selectedLabel = language === 'swa' ? 'imechaguliwa' : 'selected';
+    const switchLabel = language === 'swa' ? 'Badilisha kwenda ' : 'Switch to ';
+    document.querySelectorAll('[data-language-option]').forEach((button) => {
+      const active = button.dataset.languageOption === language;
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+      button.setAttribute('aria-label', active ? languages[language].label + ' ' + selectedLabel : switchLabel + languages[button.dataset.languageOption].label);
+    });
   };
   const setLanguage = (next) => {
     if (!languages[next] || next === language) { updateSwitcher(); return; }
@@ -561,7 +931,7 @@
       const explicit = record[field + 'Sw'] || record[field + 'Swa'];
       if (explicit) copy[field] = explicit;
       else if (Array.isArray(record[field])) copy[field] = record[field].map((part) => lookup(part) || part);
-      else if (typeof record[field] === 'string') copy[field] = lookup(record[field]) || record[field];
+      else if (typeof record[field] === 'string') copy[field] = localizeLeagueNames(lookup(record[field]) || record[field]);
     });
     return copy;
   };
@@ -572,7 +942,8 @@
   translatePage();
   observer = new MutationObserver((mutations) => mutations.forEach((mutation) => {
     if (mutation.type === 'characterData') translateTextNode(mutation.target);
+    if (mutation.type === 'attributes') translateAttributes(mutation.target);
     mutation.addedNodes.forEach((node) => { if (node.nodeType === 1) { translatePage(); } else if (node.nodeType === 3) translateTextNode(node); });
   }));
-  observer.observe(document.body, { subtree: true, childList: true, characterData: true });
+  observer.observe(document.body, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['placeholder', 'aria-label', 'title', 'alt', 'value'] });
 })();

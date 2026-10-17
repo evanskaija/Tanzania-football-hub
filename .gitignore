@@ -10,3 +10,7 @@ node_modules/
 # OS files
 Thumbs.db
 .DS_Store
+
+# Audit and temp files
+.text-audit.txt
+*-audit.txt

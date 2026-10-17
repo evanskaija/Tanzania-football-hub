@@ -1,41 +1,58 @@
 const heroStories = [
   {
-    image: 'images/fiston-mayele.png',
-    kicker: 'NBC PREMIER LEAGUE',
-    title: 'The <em>game</em><br />lives here.',
-    description: 'From the roar of the stands to the last touch in the box - step inside the football stories shaping Tanzania.',
-    note: 'Fiston Mayele · the fire returns',
-    meta: 'Fiston Mayele brings the heat',
-    byline: 'Portraits · Dar es Salaam'
+    image: 'images/Feisal salum feitoto.png',
+    kicker: 'THE NEW SEASON',
+    title: 'Wear the <em>colour.</em>',
+    description: 'A new season, in full colour.',
+    note: 'A new season, in full colour',
+    meta: 'The shirt that starts a new chapter',
+    byline: 'Portraits - Tanzania'
+  },
+  {
+    image: 'images/Applause in a packed stadium.png',
+    kicker: 'THE BIG MOMENT',
+    title: 'Rise to the <em>moment.</em>',
+    description: 'Every match has a moment.',
+    note: 'Where the game takes flight',
+    meta: 'Every match has a moment',
+    byline: 'The big picture - Inside the stadium'
   },
   {
     image: 'images/tuzo2.jpg',
     kicker: 'THE BIG PICTURE',
     title: 'Built for the <em>moment.</em>',
-    description: 'The ambition is visible everywhere: in the details, the drama and the people making Tanzanian football impossible to ignore.',
+    description: 'The ambition is in every detail.',
     note: 'The room where the future takes shape',
     meta: 'A new chapter, framed',
-    byline: 'The big picture · Tanzania'
+    byline: 'The big picture - Tanzania'
   },
   {
-    image: 'images/Maema.png',
+    image: 'images/Red Football Jersey Portrait on Blue Backdrop.png',
     kicker: 'PLAYER FILE',
     title: 'Make your <em>mark.</em>',
-    description: 'Every player carries a story. This is a closer look at the mindset, movement and magic behind the shirt.',
-    note: 'Maema · rhythm in every touch',
+    description: 'Mindset, movement and magic behind the shirt.',
+    note: 'Maema - rhythm in every touch',
     meta: 'The touch that changes everything',
-    byline: 'Player file · On the pitch'
+    byline: 'Player file - On the pitch'
   },
   {
     image: 'images/Mwalimu.png',
     kicker: 'THE TOUCHLINE',
-    title: 'The mind <em>behind</em><br />the noise.',
-    description: 'Plans become patterns, patterns become belief - meet the people turning preparation into performance.',
-    note: 'Mwalimu · lessons from the touchline',
+    title: 'Inside the <em>game.</em>',
+    description: 'Plans become performance.',
+    note: 'Mwalimu - lessons from the touchline',
     meta: 'Where belief meets the whistle',
-    byline: 'The touchline · Inside the game'
-  }
-];
+    byline: 'The touchline - Inside the game'
+  },
+  {
+    image: 'images/tuzo8.jpg',
+    kicker: 'THE STADIUM',
+    title: 'Feel the <em>energy.</em>',
+    description: 'The crowd brings the game to life.',
+    note: 'Every voice lifts the game',
+    meta: 'A stadium full of belief',
+    byline: 'The big picture - Tanzania'
+  }];
 
 const $ = (selector, scope = document) => scope.querySelector(selector);
 const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
@@ -404,7 +421,7 @@ if (matchCentre) {
     };
 
     renderPage();
-  }  renderMatchRows('[data-premier-results]', premierResults, 'PREMIER');
+  } renderMatchRows('[data-premier-results]', premierResults, 'PREMIER');
   renderMatchRows('[data-championship-results]', championshipResults, 'CHAMPIONSHIP');
   renderMatchRows('[data-premier-fixtures]', premierFixtures, 'PREMIER');
   renderMatchRows('[data-championship-fixtures]', championshipFixtures, 'CHAMPIONSHIP');
